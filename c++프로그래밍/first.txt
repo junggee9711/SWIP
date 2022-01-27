@@ -1,0 +1,18 @@
+// 아래 코드는 C++20 부터 지원되는 문법을 사용합니다.
+
+void foo(auto a)
+{
+}
+
+int main()
+{
+    foo(10);
+}
+
+// "개발자 명령 프롬프트 (developer command prompt)" 창 실행후
+// 현재 소스가 있는 폴더에 와서
+// cl first.txt 해보세요 -> 확장자가 .txt 이기 때문에 컴파일 언어를 몰라서 오류 발생
+// cl /Tp first.txt 
+// g++ -x cpp first.txt -> 와 같이 cpp 인것을 알려주면 됨
+
+// cl /Tp first.txt /std:c++20 또는 /std c++latest
