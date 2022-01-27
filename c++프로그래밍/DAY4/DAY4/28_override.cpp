@@ -1,4 +1,4 @@
-// 28_overide
+// 28_override
 
 #include <iostream>
 
