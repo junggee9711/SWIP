@@ -29,6 +29,6 @@ int main()
 						// 에러 나지 않을수도 있지만, 분명 잘못된 코드입니다.
 						// => "복사 생성자" 가 호출되어 b1.buff 를 b2.buff 에 복제하면,
 						//    b1의 소멸자로 buff 가 delete 된 후에, b2 의 소멸자가 delete 할 buff 가 사라짐
-						//   = "얕은 복사 (shallow copy)"
-			
+						//    (b1, b2 가 같은 주소를 가리키고 있기 때문에)
+						//   = "얕은 복사 (shallow copy)"			
 }
