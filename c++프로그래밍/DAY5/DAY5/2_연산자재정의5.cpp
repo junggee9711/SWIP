@@ -10,7 +10,7 @@ public:
 	friend std::ostream& operator<<(std::ostream& os, const Point& p);
 };
 
-std::ostream& operator<<(std::ostream& os, const Point& p)
+std::ostream& operator<<(std::ostream& os, const Point& p)	// std::ostream& os 에는 const를 붙일수 없음 (5-1 에서 설명)
 {
 	os << p.x << ", " << p.y;
 	return os;
