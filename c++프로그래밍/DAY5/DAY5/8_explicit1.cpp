@@ -1,5 +1,7 @@
 // 8_explicit1
 
+#include <vector>
+
 class Vector
 {
 	int size;
@@ -22,6 +24,14 @@ int main()
 	// C++11 이후 부터,
 	Vector v3{ 10 };		// direct initialization - 3
 	Vector v4 = { 10 };		// copy initialization - 4
+
+
+#if 0
+	std::vector<int> v5 = { 10 };
+	std::vector<int> v5{ 10 };
+	std::vector<int> v5 = 10;
+	std::vector<int> v5(10);
+#endif	
 
 	f(10);					// ok. f(Vector v = 10) 이므로 2번에 의해서 가능
 							// => 즉, 함수 인자 전달은 "복사 초기화"를 하는 표현식입니다.
