@@ -84,9 +84,9 @@ int core0_main(void)
 
     /*
      * CPU 의 처리과정에서 CPU 내부의 연산은 시간이 오래 걸리지 않고,
-     * 다른 메모리 (Scratch-Pad, Cache 등) 에서 register 로 값을 load 하는데 시간이 오래 걸림
-     * -> 이때, 값을 불러와서 checksum 에 더하는 경우는 ld 횟수가 1회지만,
-     *    memcpy 는 매 for loop 마다 ld 횟수 많게 구현 되기 때문에
+     * 다른 메모리 (Scratch-Pad, Cache 등) 에서 register 로 값을 load/store 하는데 시간이 오래 걸림
+     * -> 이때, 값을 불러와서 checksum 에 더하는 경우는 ld/st 횟수가 1회지만,
+     *    memcpy 는 매 for loop 마다 ld/st 횟수가 많게 구현 되기 때문에
      *    1) 보다 2) 에서 Timer 의 차이가 많이 난다
      */
 
@@ -99,6 +99,9 @@ int core0_main(void)
     printf("systemtick_1 : %d\n", systemtick_1);
     printf("system clock : %d\n", systemtick_1 - systemtick_0);
     */
+
+    test_my_print();
+
     while(1)
     {
     }

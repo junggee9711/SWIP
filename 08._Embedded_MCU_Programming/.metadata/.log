@@ -714,3 +714,248 @@ java.io.FileNotFoundException: C:\Users\user\Desktop\Hyundai\SWIP\08._Embedded_M
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:23:26.194
 !MESSAGE Include paths were discovered in 80 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:32:40.527
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:32:40.537
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:32:40.711
+!MESSAGE Include paths were discovered in 178 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:04.310
+!MESSAGE Project was boosted in 2605 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:04.388
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:29.990
+!MESSAGE Project was boosted in 2549 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:30.068
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:40.997
+!MESSAGE Project was boosted in 2556 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:41.075
+!MESSAGE Include paths were discovered in 71 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:54.851
+!MESSAGE Project was boosted in 2556 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:34:54.929
+!MESSAGE Include paths were discovered in 90 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:35:05.285
+!MESSAGE Project was boosted in 2665 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:35:05.378
+!MESSAGE Include paths were discovered in 89 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:35:43.798
+!MESSAGE Project was boosted in 2661 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:35:43.876
+!MESSAGE Include paths were discovered in 77 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:35:57.427
+!MESSAGE Project was boosted in 2419 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:35:57.532
+!MESSAGE Include paths were discovered in 97 milliseconds.
+!SESSION 2022-03-02 15:36:17.699 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:36:47.615
+!MESSAGE Project was boosted in 5135 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:36:48.052
+!MESSAGE Include paths were discovered in 431 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:36:57.604
+!MESSAGE Project was boosted in 3865 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:36:57.839
+!MESSAGE Include paths were discovered in 220 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:38:05.092
+!MESSAGE Project was boosted in 3018 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:38:05.264
+!MESSAGE Include paths were discovered in 182 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:38:42.449
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:38:42.451
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:38:42.583
+!MESSAGE Include paths were discovered in 129 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:39:02.645
+!MESSAGE Project was boosted in 2473 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:39:02.786
+!MESSAGE Include paths were discovered in 112 milliseconds.
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 15:39:22.435
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@4d51a50b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6a0ed6c4[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-02 15:39:22.435
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@4d51a50b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6a0ed6c4[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 15:39:51.766
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ec4e9e4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5eb66704[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$15@76ba2139]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsRemoved(DWNBreakpointsMediator.java:1043)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1091)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoint(BreakpointManager.java:487)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateLineBreakpoints(AbstractToggleBreakpointAdapter.java:352)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateBreakpoints(AbstractToggleBreakpointAdapter.java:311)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.toggleBreakpointsWithEvent(AbstractToggleBreakpointAdapter.java:117)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.doIt(ToggleBreakpointAction.java:105)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.runWithEvent(ToggleBreakpointAction.java:83)
+	at org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate.runWithEvent(RulerToggleBreakpointActionDelegate.java:116)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3031)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.mouseDoubleClick(AbstractTextEditor.java:3057)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.debug.core 4 120 2022-03-02 15:39:51.766
+!MESSAGE An exception occurred during breakpoint change notification.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@ec4e9e4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5eb66704[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$15@76ba2139]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsRemoved(DWNBreakpointsMediator.java:1043)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1091)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoint(BreakpointManager.java:487)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateLineBreakpoints(AbstractToggleBreakpointAdapter.java:352)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateBreakpoints(AbstractToggleBreakpointAdapter.java:311)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.toggleBreakpointsWithEvent(AbstractToggleBreakpointAdapter.java:117)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.doIt(ToggleBreakpointAction.java:105)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.runWithEvent(ToggleBreakpointAction.java:83)
+	at org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate.runWithEvent(RulerToggleBreakpointActionDelegate.java:116)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3031)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.mouseDoubleClick(AbstractTextEditor.java:3057)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
