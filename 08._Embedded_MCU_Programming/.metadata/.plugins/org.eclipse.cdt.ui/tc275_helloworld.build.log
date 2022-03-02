@@ -1,0 +1,2 @@
+15:23:26 **** Incremental Build of configuration Debug for project tc275_helloworld ****
+make --output-sync -j4 all 

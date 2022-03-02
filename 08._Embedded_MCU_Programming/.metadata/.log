@@ -1,0 +1,716 @@
+!SESSION 2022-03-02 11:40:47.641 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:07:12.822
+!MESSAGE Adding Booster and Autodiscovery builders to project: tc275_helloworld
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-02 13:08:03.474
+!MESSAGE Indexed 'tc275_helloworld' (164 sources, 632 headers) in 47.5 sec: 145,818 declarations; 193,744 references; 6 unresolved inclusions; 5,275 syntax errors; 5,956 unresolved names (1.7%)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:08:42.262
+!MESSAGE Project was boosted in 4511 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:08:42.403
+!MESSAGE Include paths were discovered in 127 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:09:53.494
+!MESSAGE Project was boosted in 2988 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:09:53.619
+!MESSAGE Include paths were discovered in 134 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:15:44.964
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:15:44.964
+!MESSAGE Project was boosted in 3 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:15:45.167
+!MESSAGE Include paths were discovered in 211 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:15:57.082
+!MESSAGE Project was boosted in 2632 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:15:57.223
+!MESSAGE Include paths were discovered in 137 milliseconds.
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE The debug instrument IO could not be initialized.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE The GDI debug instrument provided the following error message.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE Could not open Access HW
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE The debug instrument IO could not be initialized.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE The GDI debug instrument provided the following error message.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:06.377
+!MESSAGE Could not open Access HW
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:16:39.805
+!MESSAGE Project was boosted in 2627 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:16:39.945
+!MESSAGE Include paths were discovered in 126 milliseconds.
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:46.350
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:46.350
+!MESSAGE The debug instrument IO could not be initialized.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:46.350
+!MESSAGE The GDI debug instrument provided the following error message.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:16:46.350
+!MESSAGE Could not open Access HW
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:17:01.313
+!MESSAGE Project was boosted in 2684 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:17:01.438
+!MESSAGE Include paths were discovered in 117 milliseconds.
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-02 13:17:07.527
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:17:07.527
+!MESSAGE The debug instrument IO could not be initialized.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:17:07.527
+!MESSAGE The GDI debug instrument provided the following error message.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:17:07.527
+!MESSAGE Could not open Access HW
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:18:54.140
+!MESSAGE Project was boosted in 2690 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:18:54.263
+!MESSAGE Include paths were discovered in 121 milliseconds.
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-02 13:19:00.356
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:19:00.357
+!MESSAGE The debug instrument IO could not be initialized.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:19:00.358
+!MESSAGE The GDI debug instrument provided the following error message.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:19:00.360
+!MESSAGE Could not open Access HW
+!SESSION 2022-03-02 13:19:37.103 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:20:16.969
+!MESSAGE Project was boosted in 6024 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:20:17.358
+!MESSAGE Include paths were discovered in 373 milliseconds.
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-02 13:20:28.618
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:20:28.618
+!MESSAGE The debug instrument IO could not be initialized.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:20:28.618
+!MESSAGE The GDI debug instrument provided the following error message.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:20:28.618
+!MESSAGE Could not open Access HW
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:20:55.798
+!MESSAGE Project was boosted in 2953 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:20:56.003
+!MESSAGE Include paths were discovered in 203 milliseconds.
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-02 13:21:02.615
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:21:02.615
+!MESSAGE The debug instrument IO could not be initialized.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:21:02.615
+!MESSAGE The GDI debug instrument provided the following error message.
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-02 13:21:02.616
+!MESSAGE Could not open Access HW
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:21:09.815
+!MESSAGE Project was boosted in 2838 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:21:09.997
+!MESSAGE Include paths were discovered in 181 milliseconds.
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2022-03-02 13:21:17.217
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Loading failed: An unknown problem occurred when trying to open the file 'C:\Users\user\Desktop\Hyundai\SWIP\08. 임베디드 MCU 프로그래밍\tc275_helloworld\Debug\tc275_helloworld.elf'.
+	at com.tasking.debug.cdt.core.DarwinDebugModel.loadApplication(DarwinDebugModel.java:227)
+	at com.tasking.debug.cdt.core.DarwinDebugModel$1.run(DarwinDebugModel.java:388)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at com.tasking.debug.cdt.core.DarwinDebugModel.newDebugTarget(DarwinDebugModel.java:427)
+	at com.tasking.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 10000 2022-03-02 13:21:17.218
+!MESSAGE Loading failed: An unknown problem occurred when trying to open the file 'C:\Users\user\Desktop\Hyundai\SWIP\08. 임베디드 MCU 프로그래밍\tc275_helloworld\Debug\tc275_helloworld.elf'.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:21:24.417
+!MESSAGE Project was boosted in 3009 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:21:24.616
+!MESSAGE Include paths were discovered in 197 milliseconds.
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2022-03-02 13:21:31.285
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Loading failed: An unknown problem occurred when trying to open the file 'C:\Users\user\Desktop\Hyundai\SWIP\08. 임베디드 MCU 프로그래밍\tc275_helloworld\Debug\tc275_helloworld.elf'.
+	at com.tasking.debug.cdt.core.DarwinDebugModel.loadApplication(DarwinDebugModel.java:227)
+	at com.tasking.debug.cdt.core.DarwinDebugModel$1.run(DarwinDebugModel.java:388)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at com.tasking.debug.cdt.core.DarwinDebugModel.newDebugTarget(DarwinDebugModel.java:427)
+	at com.tasking.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 10000 2022-03-02 13:21:31.286
+!MESSAGE Loading failed: An unknown problem occurred when trying to open the file 'C:\Users\user\Desktop\Hyundai\SWIP\08. 임베디드 MCU 프로그래밍\tc275_helloworld\Debug\tc275_helloworld.elf'.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:21:47.897
+!MESSAGE Project was boosted in 2881 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:21:48.035
+!MESSAGE Include paths were discovered in 114 milliseconds.
+
+!ENTRY org.eclipse.cdt.debug.core 4 1000 2022-03-02 13:21:54.374
+!MESSAGE Internal error logged from CDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Loading failed: An unknown problem occurred when trying to open the file 'C:\Users\user\Desktop\Hyundai\SWIP\08. 임베디드 MCU 프로그래밍\tc275_helloworld\Debug\tc275_helloworld.elf'.
+	at com.tasking.debug.cdt.core.DarwinDebugModel.loadApplication(DarwinDebugModel.java:227)
+	at com.tasking.debug.cdt.core.DarwinDebugModel$1.run(DarwinDebugModel.java:388)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at com.tasking.debug.cdt.core.DarwinDebugModel.newDebugTarget(DarwinDebugModel.java:427)
+	at com.tasking.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:204)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 10000 2022-03-02 13:21:54.374
+!MESSAGE Loading failed: An unknown problem occurred when trying to open the file 'C:\Users\user\Desktop\Hyundai\SWIP\08. 임베디드 MCU 프로그래밍\tc275_helloworld\Debug\tc275_helloworld.elf'.
+!SESSION 2022-03-02 13:25:10.155 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:25:57.722
+!MESSAGE Project was boosted in 6464 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:25:58.077
+!MESSAGE Include paths were discovered in 344 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:26:30.830
+!MESSAGE Project was boosted in 4228 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:26:30.993
+!MESSAGE Include paths were discovered in 160 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:28:39.688
+!MESSAGE Project was boosted in 4100 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:28:39.844
+!MESSAGE Include paths were discovered in 153 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:31:02.117
+!MESSAGE Project was boosted in 3220 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:31:02.277
+!MESSAGE Include paths were discovered in 158 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:31:18.789
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:31:18.790
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:31:18.990
+!MESSAGE Include paths were discovered in 199 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:32:23.296
+!MESSAGE Project was boosted in 3249 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:32:23.441
+!MESSAGE Include paths were discovered in 143 milliseconds.
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-03-02 13:33:47.882
+!MESSAGE Request for monitor: 'com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator@444983c9' resulted in a rejected execution exception.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@3e8771a1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7ee2b3e3[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$9@29f28e5d]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@1647ab39[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 342]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.doBreakpointsAdded(DWNBreakpointsMediator.java:709)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsAdded(DWNBreakpointsMediator.java:690)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1088)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoints(BreakpointManager.java:618)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoints(BreakpointManager.java:586)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoint(BreakpointManager.java:578)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint.register(CBreakpoint.java:184)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint$1.run(CBreakpoint.java:94)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint.run(CBreakpoint.java:172)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint.<init>(CBreakpoint.java:97)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.AbstractLineBreakpoint.<init>(AbstractLineBreakpoint.java:50)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CLineBreakpoint.<init>(CLineBreakpoint.java:43)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.createLineBreakpoint(CDIDebugModel.java:200)
+	at org.eclipse.cdt.debug.internal.ui.actions.breakpoints.ToggleBreakpointAdapter.createLineBreakpoint(ToggleBreakpointAdapter.java:57)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateLineBreakpoints(AbstractToggleBreakpointAdapter.java:356)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateBreakpoints(AbstractToggleBreakpointAdapter.java:311)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.toggleBreakpointsWithEvent(AbstractToggleBreakpointAdapter.java:117)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.doIt(ToggleBreakpointAction.java:105)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.runWithEvent(ToggleBreakpointAction.java:83)
+	at org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate.runWithEvent(RulerToggleBreakpointActionDelegate.java:116)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3031)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.mouseDoubleClick(AbstractTextEditor.java:3057)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-03-02 13:33:48.991
+!MESSAGE Request for monitor: 'com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator@444983c9' resulted in a rejected execution exception.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@424acc0e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3c742618[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$13@76a38cf8]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@1647ab39[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 342]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsChanged(DWNBreakpointsMediator.java:897)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1094)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointManagerVisitor.update(BreakpointManager.java:778)
+	at org.eclipse.debug.internal.core.BreakpointManager.resourceChanged(BreakpointManager.java:695)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:367)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:163)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 13:34:04.917
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5175d07d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@413d8c78[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$15@23458f26]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@1647ab39[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 342]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsRemoved(DWNBreakpointsMediator.java:1043)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1091)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoint(BreakpointManager.java:487)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateLineBreakpoints(AbstractToggleBreakpointAdapter.java:352)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateBreakpoints(AbstractToggleBreakpointAdapter.java:311)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.toggleBreakpointsWithEvent(AbstractToggleBreakpointAdapter.java:117)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.doIt(ToggleBreakpointAction.java:105)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.runWithEvent(ToggleBreakpointAction.java:83)
+	at org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate.runWithEvent(RulerToggleBreakpointActionDelegate.java:116)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3031)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.mouseDoubleClick(AbstractTextEditor.java:3057)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.debug.core 4 120 2022-03-02 13:34:04.921
+!MESSAGE An exception occurred during breakpoint change notification.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5175d07d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@413d8c78[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$15@23458f26]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@1647ab39[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 342]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsRemoved(DWNBreakpointsMediator.java:1043)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1091)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoints(BreakpointManager.java:509)
+	at org.eclipse.debug.internal.core.BreakpointManager.removeBreakpoint(BreakpointManager.java:487)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateLineBreakpoints(AbstractToggleBreakpointAdapter.java:352)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateBreakpoints(AbstractToggleBreakpointAdapter.java:311)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.toggleBreakpointsWithEvent(AbstractToggleBreakpointAdapter.java:117)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.doIt(ToggleBreakpointAction.java:105)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.runWithEvent(ToggleBreakpointAction.java:83)
+	at org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate.runWithEvent(RulerToggleBreakpointActionDelegate.java:116)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3031)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.mouseDoubleClick(AbstractTextEditor.java:3057)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-03-02 13:34:05.528
+!MESSAGE Request for monitor: 'com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator@444983c9' resulted in a rejected execution exception.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@2eac48ea[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@1ae12304[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$9@10abffca]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@1647ab39[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 342]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.doBreakpointsAdded(DWNBreakpointsMediator.java:709)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsAdded(DWNBreakpointsMediator.java:690)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1088)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoints(BreakpointManager.java:618)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoints(BreakpointManager.java:586)
+	at org.eclipse.debug.internal.core.BreakpointManager.addBreakpoint(BreakpointManager.java:578)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint.register(CBreakpoint.java:184)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint$1.run(CBreakpoint.java:94)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2313)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2333)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint.run(CBreakpoint.java:172)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CBreakpoint.<init>(CBreakpoint.java:97)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.AbstractLineBreakpoint.<init>(AbstractLineBreakpoint.java:50)
+	at org.eclipse.cdt.debug.internal.core.breakpoints.CLineBreakpoint.<init>(CLineBreakpoint.java:43)
+	at org.eclipse.cdt.debug.core.CDIDebugModel.createLineBreakpoint(CDIDebugModel.java:200)
+	at org.eclipse.cdt.debug.internal.ui.actions.breakpoints.ToggleBreakpointAdapter.createLineBreakpoint(ToggleBreakpointAdapter.java:57)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateLineBreakpoints(AbstractToggleBreakpointAdapter.java:356)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.updateBreakpoints(AbstractToggleBreakpointAdapter.java:311)
+	at org.eclipse.cdt.debug.ui.breakpoints.AbstractToggleBreakpointAdapter.toggleBreakpointsWithEvent(AbstractToggleBreakpointAdapter.java:117)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.doIt(ToggleBreakpointAction.java:105)
+	at org.eclipse.debug.ui.actions.ToggleBreakpointAction.runWithEvent(ToggleBreakpointAction.java:83)
+	at org.eclipse.debug.ui.actions.RulerToggleBreakpointActionDelegate.runWithEvent(RulerToggleBreakpointActionDelegate.java:116)
+	at org.eclipse.ui.internal.handlers.ActionDelegateHandlerProxy.execute(ActionDelegateHandlerProxy.java:281)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.ui.actions.ContributedAction.runWithEvent(ContributedAction.java:176)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.triggerAction(AbstractTextEditor.java:3031)
+	at org.eclipse.ui.texteditor.AbstractTextEditor$1.mouseDoubleClick(AbstractTextEditor.java:3057)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:200)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4237)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1060)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4054)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1041)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2022-03-02 13:34:06.049
+!MESSAGE Request for monitor: 'com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator@444983c9' resulted in a rejected execution exception.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@20146444[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3c4ad002[Wrapped task = com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator$13@5627d9d]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@1647ab39[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 342]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.service.DWNBreakpointsMediator.breakpointsChanged(DWNBreakpointsMediator.java:897)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.run(BreakpointManager.java:1094)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointsNotifier.notify(BreakpointManager.java:1114)
+	at org.eclipse.debug.internal.core.BreakpointManager.fireUpdate(BreakpointManager.java:965)
+	at org.eclipse.debug.internal.core.BreakpointManager$BreakpointManagerVisitor.update(BreakpointManager.java:778)
+	at org.eclipse.debug.internal.core.BreakpointManager.resourceChanged(BreakpointManager.java:695)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastBuildEvent(Workspace.java:367)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:163)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:251)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-03-02 13:40:06.712 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:42:00.457
+!MESSAGE Project was boosted in 4799 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 13:42:00.832
+!MESSAGE Include paths were discovered in 376 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:08:18.499
+!MESSAGE Project was boosted in 2886 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:08:18.671
+!MESSAGE Include paths were discovered in 176 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:08:33.043
+!MESSAGE Project was boosted in 2578 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:08:33.152
+!MESSAGE Include paths were discovered in 110 milliseconds.
+
+!ENTRY com.tasking.cdt.launch 4 107 2022-03-02 14:08:39.394
+!MESSAGE 'Debug\tc275_helloworld.elf' is not a binary file supported within this project
+!SUBENTRY 1 com.tasking.cdt.launch 4 107 2022-03-02 14:08:39.394
+!MESSAGE 
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:08:46.212
+!MESSAGE Project was boosted in 2579 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:08:46.369
+!MESSAGE Include paths were discovered in 150 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:09:50.207
+!MESSAGE Project was boosted in 2606 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:09:50.301
+!MESSAGE Include paths were discovered in 99 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:12:20.400
+!MESSAGE Project was boosted in 2601 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:12:20.509
+!MESSAGE Include paths were discovered in 93 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:12:31.052
+!MESSAGE Project was boosted in 2534 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:12:31.146
+!MESSAGE Include paths were discovered in 89 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:12:42.303
+!MESSAGE Project was boosted in 2497 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:12:42.412
+!MESSAGE Include paths were discovered in 99 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:25:25.442
+!MESSAGE Project was boosted in 2485 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:25:25.552
+!MESSAGE Include paths were discovered in 97 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:25:40.764
+!MESSAGE Project was boosted in 2454 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:25:40.858
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:26:57.382
+!MESSAGE Project was boosted in 2516 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:26:57.492
+!MESSAGE Include paths were discovered in 99 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:31:10.881
+!MESSAGE Project was boosted in 2522 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:31:10.991
+!MESSAGE Include paths were discovered in 99 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:31:43.483
+!MESSAGE Project was boosted in 2475 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:31:43.608
+!MESSAGE Include paths were discovered in 126 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:32:00.964
+!MESSAGE Project was boosted in 2542 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:32:01.058
+!MESSAGE Include paths were discovered in 83 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:51:01.550
+!MESSAGE Project was boosted in 2744 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 14:51:01.644
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY org.eclipse.cdt.dsf.ui 2 0 2022-03-02 15:17:38.254
+!MESSAGE Cannot read source file: T:\tut\bamboo_Qgit_1\ctc\lib\src\dbg.c
+!STACK 1
+org.eclipse.core.runtime.CoreException: Exception occurred retrieving file contents.
+	at org.eclipse.cdt.dsf.debug.internal.ui.disassembly.model.SourceFileInfo.initSource(SourceFileInfo.java:74)
+	at org.eclipse.cdt.dsf.debug.internal.ui.disassembly.model.SourceReadingJob.run(SourceReadingJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.io.FileNotFoundException: C:\Users\user\Desktop\Hyundai\SWIP\08._Embedded_MCU_Programming\tc275_helloworld\dbg.c (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.debug.core.sourcelookup.containers.LocalFileStorage.getContents(LocalFileStorage.java:60)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.setDocumentContent(StorageDocumentProvider.java:197)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createDocument(StorageDocumentProvider.java:225)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createElementInfo(StorageDocumentProvider.java:254)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.connect(AbstractDocumentProvider.java:395)
+	at org.eclipse.cdt.dsf.debug.internal.ui.disassembly.model.SourceFileInfo.initSource(SourceFileInfo.java:70)
+	... 2 more
+!SUBENTRY 1 org.eclipse.debug.core 4 125 2022-03-02 15:17:38.254
+!MESSAGE Exception occurred retrieving file contents.
+!STACK 0
+java.io.FileNotFoundException: C:\Users\user\Desktop\Hyundai\SWIP\08._Embedded_MCU_Programming\tc275_helloworld\dbg.c (지정된 파일을 찾을 수 없습니다)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at org.eclipse.debug.core.sourcelookup.containers.LocalFileStorage.getContents(LocalFileStorage.java:60)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.setDocumentContent(StorageDocumentProvider.java:197)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createDocument(StorageDocumentProvider.java:225)
+	at org.eclipse.ui.editors.text.StorageDocumentProvider.createElementInfo(StorageDocumentProvider.java:254)
+	at org.eclipse.ui.texteditor.AbstractDocumentProvider.connect(AbstractDocumentProvider.java:395)
+	at org.eclipse.cdt.dsf.debug.internal.ui.disassembly.model.SourceFileInfo.initSource(SourceFileInfo.java:70)
+	at org.eclipse.cdt.dsf.debug.internal.ui.disassembly.model.SourceReadingJob.run(SourceReadingJob.java:68)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:22:57.843
+!MESSAGE Project was boosted in 2660 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:22:57.936
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:23:26.116
+!MESSAGE Project was boosted in 2659 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 15:23:26.194
+!MESSAGE Include paths were discovered in 80 milliseconds.

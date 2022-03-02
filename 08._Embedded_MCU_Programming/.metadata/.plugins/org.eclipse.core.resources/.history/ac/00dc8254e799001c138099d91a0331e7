@@ -1,0 +1,17 @@
+/*
+ * my_lib.c
+ *
+ *  Created on: 2022. 3. 2.
+ *      Author: user
+ */
+#include "Ifx_Type.h"
+#include "IfxCpu.h"
+#include "IfxScuWdt.h"
+#include <stdio.h>
+#include <string.h>
+
+IfxCpu_syncEvent g_cpuSyncEvent = 0;
+
+
+
+
