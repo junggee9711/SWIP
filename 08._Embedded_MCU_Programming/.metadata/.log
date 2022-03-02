@@ -959,3 +959,382 @@ java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.Sched
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:06:48.980
+!MESSAGE Adding Booster and Autodiscovery builders to project: LED_example
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-02 16:07:29.887
+!MESSAGE Indexed 'LED_example' (164 sources, 632 headers) in 38.8 sec: 145,818 declarations; 193,744 references; 6 unresolved inclusions; 5,275 syntax errors; 5,956 unresolved names (1.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-02 16:08:19.106
+!MESSAGE Indexed 'tc275_LEDtoggle' (68 sources, 427 headers) in 16.7 sec: 102,743 declarations; 56,376 references; 6 unresolved inclusions; 2,503 syntax errors; 5,918 unresolved names (3.6%)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:09:26.080
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:09:26.080
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:09:26.205
+!MESSAGE Include paths were discovered in 114 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:12:16.215
+!MESSAGE Project was boosted in 2954 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:12:16.403
+!MESSAGE Include paths were discovered in 181 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:15:05.450
+!MESSAGE Project was boosted in 2522 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:15:05.606
+!MESSAGE Include paths were discovered in 160 milliseconds.
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 16:15:15.144
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@74fa2f7c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4e90f37[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-02 16:15:15.144
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@74fa2f7c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4e90f37[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 16:15:15.144
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@a7f777[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4cfbc968[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-02 16:15:15.144
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@a7f777[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4cfbc968[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 16:16:31.764
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@465d4b0c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@739b65fb[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-02 16:16:31.764
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@465d4b0c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@739b65fb[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 16:30:12.292
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@78b72f40[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@1ea6db40[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-02 16:30:12.292
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@78b72f40[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@1ea6db40[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:30:13.269
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:30:13.269
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:30:13.426
+!MESSAGE Include paths were discovered in 157 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:27.951
+!MESSAGE Project was boosted in 3469 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:31.324
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:31.324
+!MESSAGE Project was boosted in 0 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:31.449
+!MESSAGE Include paths were discovered in 126 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:44.169
+!MESSAGE Project was boosted in 2571 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:44.278
+!MESSAGE Include paths were discovered in 109 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:48.927
+!MESSAGE Project was boosted in 2422 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:31:49.020
+!MESSAGE Include paths were discovered in 94 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:33:32.357
+!MESSAGE Project was boosted in 2656 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:33:32.435
+!MESSAGE Include paths were discovered in 81 milliseconds.
+
+!ENTRY com.tasking.cdt.launch 4 107 2022-03-02 16:33:38.240
+!MESSAGE 'Debug\tc275_LEDtoggle.elf' is not a binary file supported within this project
+!SUBENTRY 1 com.tasking.cdt.launch 4 107 2022-03-02 16:33:38.240
+!MESSAGE 
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:35:54.964
+!MESSAGE Project was boosted in 2991 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:35:55.057
+!MESSAGE Include paths were discovered in 93 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:36:23.498
+!MESSAGE Project was boosted in 2867 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:36:23.580
+!MESSAGE Include paths were discovered in 83 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:36:28.174
+!MESSAGE Project was boosted in 2520 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:36:28.267
+!MESSAGE Include paths were discovered in 98 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:36:51.635
+!MESSAGE Project was boosted in 2600 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:36:51.713
+!MESSAGE Include paths were discovered in 75 milliseconds.
+
+!ENTRY com.tasking.cdt.launch 4 107 2022-03-02 16:43:25.929
+!MESSAGE 'Debug\tc275_LEDtoggle.elf' is not a binary file supported within this project
+!SUBENTRY 1 com.tasking.cdt.launch 4 107 2022-03-02 16:43:25.929
+!MESSAGE 
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:48:59.723
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:48:59.723
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:48:59.801
+!MESSAGE Include paths were discovered in 78 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:05.751
+!MESSAGE Project was boosted in 2524 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:05.829
+!MESSAGE Include paths were discovered in 80 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:12.536
+!MESSAGE Project was boosted in 2651 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:12.598
+!MESSAGE Include paths were discovered in 71 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:18.763
+!MESSAGE Project was boosted in 2641 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:18.841
+!MESSAGE Include paths were discovered in 73 milliseconds.
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 16:49:26.870
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ad048b4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@526223c9[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-02 16:49:26.870
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@5ad048b4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@526223c9[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-02 16:49:26.870
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@7ecbde5a[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3df4de46[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-02 16:49:26.870
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@7ecbde5a[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3df4de46[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@1e0c9e97, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@203f929[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2596]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:58.207
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:58.207
+!MESSAGE Project was boosted in 0 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:49:58.332
+!MESSAGE Include paths were discovered in 125 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:50:04.301
+!MESSAGE Project was boosted in 2608 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:50:04.379
+!MESSAGE Include paths were discovered in 82 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:50:11.047
+!MESSAGE Project was boosted in 2587 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-02 16:50:11.125
+!MESSAGE Include paths were discovered in 75 milliseconds.

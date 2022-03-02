@@ -53,14 +53,14 @@ int core0_main(void)
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
 
     // 1) CPU0, CPU1 의 Scratch-Pad RAM 주소 데이터를 읽는데 걸리는 시간 비교
-    // CPU0 에서 CPU0 Data Scratch-Pad RAM 주소에 접근하여 data 를 읽어 오는데 걸리는 시간
+    // - CPU0 에서 CPU0 Data Scratch-Pad RAM 주소에 접근하여 data 를 읽어 오는데 걸리는 시간
     systemtick[0] = SYSTEM_TIMER_31_0;
     checksum_0 = 0;
     for (int i = 0; i<0x2000; i++)
         checksum_0 += *((volatile int *)0x70008000+i);
     systemtick[1] = SYSTEM_TIMER_31_0;
 
-    // CPU0 에서 CPU1 Data Scratch-Pad RAM 주소에 접근하여 data 를 읽어 오는데 걸리는 시간
+    // - CPU0 에서 CPU1 Data Scratch-Pad RAM 주소에 접근하여 data 를 읽어 오는데 걸리는 시간
     systemtick[2] = SYSTEM_TIMER_31_0;
     checksum_1 = 0;
      for (int i = 0; i<0x2000; i++)
@@ -88,7 +88,7 @@ int core0_main(void)
      * -> 이때, 값을 불러와서 checksum 에 더하는 경우는 ld/st 횟수가 1회지만,
      *    memcpy 는 매 for loop 마다 ld/st 횟수가 많게 구현 되기 때문에
      *    1) 보다 2) 에서 Timer 의 차이가 많이 난다
-     */
+    */
 
     /*
     systemtick_0 = SYSTEM_TIMER_0_31_0;
