@@ -28,6 +28,10 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 
+#include <my_lib.h>
+
+#define SYSTEM_TIMER_0_31_0 *(unsigned int *)(0xF0000000+0x10);
+
 /* Define PORT10 Registers for LED */
 #define PORT10_BASE     (0xF003B000)
 #define PORT10_IOCR0    (*(volatile unsigned int*)(PORT10_BASE + 0x10))
@@ -41,7 +45,7 @@
 #define PS0             2
 
 
-/* Define PORT02 Registers for Switch2 */
+/* Define PORT02 Registers for Switch */
 #define PORT02_BASE     (0xF003A200)
 #define PORT02_IOCR0    (*(volatile unsigned int*)(PORT02_BASE + 0x10))
 #define PORT02_IN       (*(volatile unsigned int*)(PORT02_BASE + 0x24))
@@ -81,6 +85,8 @@
 #define SRPN            0
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
+
+volatile unsigned int sw1_cnt, sw2_cnt, systick_prev, systick_curr, systick;
 
 /* Initialize LED (RED) */
 void init_LED(void)
@@ -180,13 +186,27 @@ int core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
     
+    sw1_cnt = 0;
+    sw2_cnt = 0;
+
     init_ERU();                                // Initialize ERU
     init_LED();                                // Initialize LED
     init_BLUE();
     init_Switch();                             // Initialize Switch
 
+    systick_prev = SYSTEM_TIMER_0_31_0;
+
     while(1)
     {
+        systick_curr = SYSTEM_TIMER_0_31_0;
+        systick = systick_curr - systick_prev;
+
+        if(systick > 1000000)
+        {
+            systick_prev = systick_curr;
+            if(sw1_cnt != 0) sw1_cnt--;
+            if(sw2_cnt != 0) sw2_cnt--;
+        }
     }
     return (1);
 }
@@ -194,11 +214,19 @@ int core0_main(void)
 __interrupt(0x0A) __vector_table(0)
 void ERU0_ISR(void)
 {
-    PORT10_OMR |= ((1<<PCL1) | (1<<PS1));           // Toggle LED RED
+    if(sw2_cnt == 0)
+    {
+        PORT10_OMR |= ((1<<PCL1) | (1<<PS1));           // Toggle LED RED
+        sw2_cnt = 100;
+    }
 }
 
 __interrupt(0x0B) __vector_table(0)
 void ERU1_ISR(void)
 {
-    PORT10_OMR |= ((1<<PCL0) | (1<<PS0));           // Toggle LED BLUE
+    if(sw1_cnt == 0)
+    {
+        PORT10_OMR |= ((1<<PCL0) | (1<<PS0));           // Toggle LED BLUE
+        sw1_cnt = 100;
+    }
 }
