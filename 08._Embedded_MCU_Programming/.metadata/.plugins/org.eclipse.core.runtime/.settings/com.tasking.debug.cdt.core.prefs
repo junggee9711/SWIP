@@ -1,5 +1,13 @@
 com.tasking.debug.cdt.core.liveVariablesMode=true
 eclipse.preferences.version=1
+tc275_LEDtoggle.MCDS.MCDS.pfa_event_pair.0.type=2
+tc275_LEDtoggle.MCDS.MCDS.pfa_event_pair.1.API_index=3
+tc275_LEDtoggle.MCDS.MCDS.pfa_event_pair.1.type=3
+tc275_LEDtoggle.MCDS.MCDS.pfa_event_pair.count=2
+tc275_SwitchLED.MCDS.MCDS.pfa_event_pair.0.type=2
+tc275_SwitchLED.MCDS.MCDS.pfa_event_pair.1.API_index=3
+tc275_SwitchLED.MCDS.MCDS.pfa_event_pair.1.type=3
+tc275_SwitchLED.MCDS.MCDS.pfa_event_pair.count=2
 tc275_helloworld.MCDS.MCDS.pfa_event_pair.0.type=2
 tc275_helloworld.MCDS.MCDS.pfa_event_pair.1.API_index=3
 tc275_helloworld.MCDS.MCDS.pfa_event_pair.1.type=3

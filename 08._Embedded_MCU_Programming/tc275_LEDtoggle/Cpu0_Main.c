@@ -62,9 +62,9 @@ int core0_main(void)
     volatile int cycle;
 
     init_LED();
-    systemtick = SYSTEM_TIMER_0_31_0;
+//    systemtick = SYSTEM_TIMER_0_31_0;
     for(cycle=0; cycle < 5000000; cycle++);             // Delay
-    systemtick = SYSTEM_TIMER_0_31_0 - systemtick;
+//    systemtick = SYSTEM_TIMER_0_31_0 - systemtick;
 
     while(1)
     {

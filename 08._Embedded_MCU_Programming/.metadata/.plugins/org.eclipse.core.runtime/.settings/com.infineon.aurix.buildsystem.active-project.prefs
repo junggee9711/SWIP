@@ -1,2 +1,3 @@
-com.infineon.aurix.ActiveProject=tc275_helloworld
+com.infineon.aurix.ActiveProject=tc275_SwitchLED
+com.infineon.aurix.Old_ActiveProject=tc275_LEDtoggle
 eclipse.preferences.version=1

@@ -1,0 +1,7 @@
+14:40:18 **** Clean-only build of configuration Debug for project tc275_Interrupt_SW1 ****
+make --output-sync -j4 clean 
+find . ! -name "*.mk" ! -name "makefile" ! -name "." -type f -delete 
+ 
+
+14:40:19 Build Finished. 0 errors, 0 warnings. (took 859ms)
+
