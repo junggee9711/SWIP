@@ -1,4 +1,4 @@
-10:07:54 **** Incremental Build of configuration Debug for project tc275_SwitchLED ****
+14:18:26 **** Incremental Build of configuration Debug for project tc275_SwitchLED ****
 make --output-sync -j4 all 
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Building target: tc275_SwitchLED.elf
@@ -15,5 +15,5 @@ RAM: 0x9519 (38169) = data + bss
 Finished building: tc275_SwitchLED.siz
  
 
-10:07:57 Build Finished. 0 errors, 0 warnings. (took 2s.890ms)
+14:18:28 Build Finished. 0 errors, 0 warnings. (took 2s.604ms)
 

@@ -1,0 +1,10 @@
+15:13:28 **** Incremental Build of configuration Debug for project tc275_ADC ****
+make --output-sync -j4 all 
+Building file: ../Cpu0_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_ADC/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu0_Main.src"  "../Cpu0_Main.c"  -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+ctc W537: ["../Cpu0_Main.c" 50/18] unused variable "Result"
+0 errors, 1 warnings
+Finished building: ../Cpu0_Main.c
+ 

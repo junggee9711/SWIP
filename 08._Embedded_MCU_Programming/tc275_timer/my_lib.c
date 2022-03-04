@@ -5,7 +5,7 @@
  *      Author: user
  */
 #include "my_lib.h"
-#include <stdio.h>
+
 
 void init_LED(void)
 {
