@@ -1,0 +1,87 @@
+/*
+ * my_lib.h
+ *
+ *  Created on: 2022. 3. 7.
+ *      Author: user
+ */
+
+#ifndef MY_LIB_H_
+#define MY_LIB_H_
+
+
+#endif /* MY_LIB_H_ */
+
+
+/* Address of Registers */
+// SCU Registers
+#define SCU_BASE        (0xF0036000)
+#define SCU_WDT_CPU0CON0 (*(volatile unsigned int*)(SCU_BASE + 0x100))
+
+#define LCK             1
+#define ENDINIT         0
+
+// GTM Registers
+// GTM - CMU
+#define GTM_BASE                    (0xF0100000)
+#define GTM_CMU_CLK_EN              (*(volatile unsigned int*)(GTM_BASE + 0x00300))
+#define GTM_CMU_FXCLK_CTRL          (*(volatile unsigned int*)(GTM_BASE + 0x00344))
+
+#define EN_FXCLK                    22
+#define FXCLK_SEL                   0
+
+// GTM - TOM0, TGC0, ch1
+#define GTM_TOM0_TGC0_GLB_CTRL      (*(volatile unsigned int*)(GTM_BASE + 0x08030))
+#define GTM_TOM0_TGC0_ENDIS_CTRL    (*(volatile unsigned int*)(GTM_BASE + 0x08070))
+#define GTM_TOM0_TGC0_OUTEN_CTRL    (*(volatile unsigned int*)(GTM_BASE + 0x08078))
+#define GTM_TOM0_TGC0_FUPD_CTRL     (*(volatile unsigned int*)(GTM_BASE + 0x08038))
+#define GTM_TOM0_CH1_CTRL           (*(volatile unsigned int*)(GTM_BASE + 0x08040))
+#define GTM_TOM0_CH1_SR0            (*(volatile unsigned int*)(GTM_BASE + 0x08044))
+#define GTM_TOM0_CH1_SR1            (*(volatile unsigned int*)(GTM_BASE + 0x08048))
+
+#define UPEN_CTRL1                  18
+#define HOST_TRIG                   0
+#define ENDIS_CTRL1                 2
+#define OUTEN_CTRL1                 2
+#define RSTCN0_CH1                  18
+#define FUPD_CTRL1                  2
+#define CLK_SRC_SR                  12
+#define SL                          11
+
+// GTM - TOM0, TGC1, ch15
+#define GTM_TOM0_TGC1_GLB_CTRL      (*(volatile unsigned int*)(GTM_BASE + 0x08230))
+#define GTM_TOM0_TGC1_ENDIS_CTRL    (*(volatile unsigned int*)(GTM_BASE + 0x08270))
+#define GTM_TOM0_TGC1_OUTEN_CTRL    (*(volatile unsigned int*)(GTM_BASE + 0x08278))
+#define GTM_TOM0_TGC1_FUPD_CTRL     (*(volatile unsigned int*)(GTM_BASE + 0x08238))
+#define GTM_TOM0_CH15_CTRL           (*(volatile unsigned int*)(GTM_BASE + 0x08000 + 0x3C0))
+#define GTM_TOM0_CH15_SR0            (*(volatile unsigned int*)(GTM_BASE + 0x08004 + 0x3C0))
+#define GTM_TOM0_CH15_SR1            (*(volatile unsigned int*)(GTM_BASE + 0x08008 + 0x3C0))
+
+#define UPEN_CTRL1                  18
+#define HOST_TRIG                   0
+#define ENDIS_CTRL1                 2
+#define OUTEN_CTRL1                 2
+#define RSTCN0_CH1                  18
+#define FUPD_CTRL1                  2
+#define CLK_SRC_SR                  12
+#define SL                          11
+
+// GTM
+#define GTM_CLC                     (*(volatile unsigned int*)(GTM_BASE + 0x9FD00))
+#define GTM_TOUTSEL6                (*(volatile unsigned int*)(GTM_BASE + 0x9FD48))
+
+#define DISS                        1
+#define DISR                        0
+#define SEL7                        14
+#define SEL8                        16
+
+// PORT10 Registers
+#define PORT10_BASE     (0xF003B000)
+#define PORT10_IOCR0    (*(volatile unsigned int*)(PORT10_BASE + 0x10))
+
+#define PC1             11
+#define PC2             16
+
+/* Function Prototype */
+void init_LED(void);
+void init_GTM_TOM0_CH1_PWM(void);
+void init_GTM_TOM0_CH15_PWM(void);

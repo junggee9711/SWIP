@@ -1,4 +1,4 @@
-14:17:58 **** Incremental Build of configuration Debug for project tc275_ADC_Light ****
+10:40:11 **** Incremental Build of configuration Debug for project tc275_ADC_Light ****
 make --output-sync -j4 all 
 Building target: tc275_ADC_Light.elf
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
@@ -7,13 +7,13 @@ cctc -lrt -lfp_fpu -lcs_fpu  -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="t
 Finished building target: tc275_ADC_Light.elf
  
 Invoking: Print Size
+TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 21111057
 elfsize  "tc275_ADC_Light.elf"
 Total sizes:
-TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 21111057
 ROM: 0x2543 (9539) = code: 0x239e (9118) + romdata: 0x1a5 (421)
 RAM: 0x9519 (38169) = data + bss
 Finished building: tc275_ADC_Light.siz
  
 
-14:18:00 Build Finished. 0 errors, 0 warnings. (took 2s.453ms)
+10:40:14 Build Finished. 0 errors, 0 warnings. (took 2s.841ms)
 

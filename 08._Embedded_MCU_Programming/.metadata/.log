@@ -5748,3 +5748,873 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infin
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-04 15:13:28.054
 !MESSAGE Include paths were discovered in 82 milliseconds.
+!SESSION 2022-03-07 09:03:12.862 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-07 09:17:40.331
+!MESSAGE Indexed 'tc275_PWM' (68 sources, 427 headers) in 26.7 sec: 102,748 declarations; 56,457 references; 6 unresolved inclusions; 2,503 syntax errors; 5,918 unresolved names (3.6%)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:19:12.022
+!MESSAGE Project was boosted in 4015 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:19:12.272
+!MESSAGE Include paths were discovered in 243 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:31:58.470
+!MESSAGE Project was boosted in 2703 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:31:58.610
+!MESSAGE Include paths were discovered in 126 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:36:45.410
+!MESSAGE Project was boosted in 3125 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:36:45.613
+!MESSAGE Include paths were discovered in 206 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:36:51.076
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:36:51.076
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:36:51.201
+!MESSAGE Include paths were discovered in 128 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:52:18.259
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:52:18.259
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:52:18.384
+!MESSAGE Include paths were discovered in 113 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:52:45.003
+!MESSAGE Project was boosted in 2701 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:52:45.128
+!MESSAGE Include paths were discovered in 115 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:53:11.840
+!MESSAGE Project was boosted in 2611 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:53:11.934
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:53:22.730
+!MESSAGE Project was boosted in 2637 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:53:22.808
+!MESSAGE Include paths were discovered in 86 milliseconds.
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-07 09:53:31.006
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@683e9ff1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@545c60c3[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@74b440dd, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@17691c4f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3477]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-07 09:53:31.006
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@683e9ff1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@545c60c3[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@74b440dd, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@17691c4f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3477]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 2 2022-03-07 09:53:31.006
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.debug.core".
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@359e8942[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@778d9e36[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@74b440dd, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@17691c4f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3477]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.debug.core 4 125 2022-03-07 09:53:31.021
+!MESSAGE An exception occurred while dispatching debug events.
+!STACK 0
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@359e8942[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@778d9e36[Wrapped task = Event: THREAD SUSPENDED: core 0 (UNKNOWN), from service {objectClass=[Ljava.lang.String;@74b440dd, org.eclipse.cdt.dsf.service.IService.session_id=0}]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@17691c4f[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 3477]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.submit(ScheduledThreadPoolExecutor.java:715)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.submit(DefaultDsfExecutor.java:482)
+	at org.eclipse.cdt.dsf.service.DsfSession.dispatchEvent(DsfSession.java:405)
+	at com.tasking.debug.cdt.dsf.service.DWNRunControl.handleDebugEvents(DWNRunControl.java:782)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.run(DebugPlugin.java:1214)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.core.DebugPlugin$EventNotifier.dispatch(DebugPlugin.java:1248)
+	at org.eclipse.debug.core.DebugPlugin$EventDispatchJob.run(DebugPlugin.java:480)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2022-03-07 09:54:05.086 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:54:30.857
+!MESSAGE Project was boosted in 5585 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:54:31.216
+!MESSAGE Include paths were discovered in 364 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:54:40.710
+!MESSAGE Project was boosted in 3475 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:54:40.960
+!MESSAGE Include paths were discovered in 259 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:57:54.406
+!MESSAGE Project was boosted in 2836 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 09:57:54.594
+!MESSAGE Include paths were discovered in 199 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:00:35.424
+!MESSAGE Project was boosted in 2796 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:00:35.596
+!MESSAGE Include paths were discovered in 152 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:01:06.964
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:01:06.964
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:01:07.136
+!MESSAGE Include paths were discovered in 165 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:03:26.715
+!MESSAGE Project was boosted in 2922 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:03:26.833
+!MESSAGE Include paths were discovered in 116 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:08:14.662
+!MESSAGE Project was boosted in 2815 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:08:14.792
+!MESSAGE Include paths were discovered in 129 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:09:42.517
+!MESSAGE Project was boosted in 2863 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:09:42.657
+!MESSAGE Include paths were discovered in 137 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:11:14.362
+!MESSAGE Project was boosted in 2915 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:11:14.472
+!MESSAGE Include paths were discovered in 108 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:11:57.181
+!MESSAGE Project was boosted in 2967 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:11:57.266
+!MESSAGE Include paths were discovered in 84 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:12:30.037
+!MESSAGE Project was boosted in 4150 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:12:30.157
+!MESSAGE Include paths were discovered in 118 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:14:38.616
+!MESSAGE Project was boosted in 3138 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:14:38.738
+!MESSAGE Include paths were discovered in 119 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:14:49.506
+!MESSAGE Project was boosted in 3493 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:14:49.609
+!MESSAGE Include paths were discovered in 101 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:15:14.283
+!MESSAGE Project was boosted in 2801 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:15:14.378
+!MESSAGE Include paths were discovered in 94 milliseconds.
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-03-07 10:15:40.688
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.debug.ui.sourcelookup.DsfSourceDisplayAdapter$LookupJob
+!SESSION 2022-03-07 10:15:43.004 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:16:24.678
+!MESSAGE Project was boosted in 6225 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:16:25.062
+!MESSAGE Include paths were discovered in 368 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:18:23.174
+!MESSAGE Project was boosted in 2894 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:18:23.385
+!MESSAGE Include paths were discovered in 209 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:26:16.202
+!MESSAGE Project was boosted in 2755 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:26:16.401
+!MESSAGE Include paths were discovered in 196 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:32:32.895
+!MESSAGE Project was boosted in 2694 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:32:33.080
+!MESSAGE Include paths were discovered in 172 milliseconds.
+!SESSION 2022-03-07 10:33:19.099 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:33:50.055
+!MESSAGE Project was boosted in 4781 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:33:50.319
+!MESSAGE Include paths were discovered in 249 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:23.844
+!MESSAGE Project was boosted in 3513 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:24.052
+!MESSAGE Include paths were discovered in 205 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:28.783
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:28.784
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:28.926
+!MESSAGE Include paths were discovered in 140 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:36.124
+!MESSAGE Project was boosted in 3120 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:36.263
+!MESSAGE Include paths were discovered in 136 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:40.247
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:40.249
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:34:40.382
+!MESSAGE Include paths were discovered in 132 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:35:40.349
+!MESSAGE Project was boosted in 4238 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:35:40.470
+!MESSAGE Include paths were discovered in 119 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:35:49.046
+!MESSAGE Project was boosted in 4655 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:35:49.149
+!MESSAGE Include paths were discovered in 100 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:35:57.109
+!MESSAGE Project was boosted in 4358 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:35:57.204
+!MESSAGE Include paths were discovered in 87 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:19.726
+!MESSAGE Project was boosted in 4199 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:19.898
+!MESSAGE Include paths were discovered in 170 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:26.544
+!MESSAGE Project was boosted in 2848 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:26.665
+!MESSAGE Include paths were discovered in 117 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:35.251
+!MESSAGE Project was boosted in 5026 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:35.332
+!MESSAGE Include paths were discovered in 79 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:43.660
+!MESSAGE Project was boosted in 4534 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:43.746
+!MESSAGE Include paths were discovered in 84 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:52.177
+!MESSAGE Project was boosted in 4318 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:36:52.251
+!MESSAGE Include paths were discovered in 72 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:37:00.306
+!MESSAGE Project was boosted in 4284 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:37:00.394
+!MESSAGE Include paths were discovered in 85 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:37:13.704
+!MESSAGE Project was boosted in 2642 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:37:13.818
+!MESSAGE Include paths were discovered in 112 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:38:06.571
+!MESSAGE Project was boosted in 2714 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:38:06.669
+!MESSAGE Include paths were discovered in 94 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:39:41.914
+!MESSAGE Project was boosted in 2648 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:39:42.010
+!MESSAGE Include paths were discovered in 94 milliseconds.
+
+!ENTRY com.tasking.cdt.launch 4 107 2022-03-07 10:39:56.643
+!MESSAGE 'Debug\tc275_PWM.elf' is not a binary file supported within this project
+!SUBENTRY 1 com.tasking.cdt.launch 4 107 2022-03-07 10:39:56.643
+!MESSAGE 
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:04.342
+!MESSAGE Project was boosted in 2686 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:04.408
+!MESSAGE Include paths were discovered in 64 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:10.616
+!MESSAGE Project was boosted in 2792 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:10.689
+!MESSAGE Include paths were discovered in 72 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:17.971
+!MESSAGE Project was boosted in 3621 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:18.081
+!MESSAGE Include paths were discovered in 108 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:36.770
+!MESSAGE Project was boosted in 2792 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:36.863
+!MESSAGE Include paths were discovered in 90 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:42.986
+!MESSAGE Project was boosted in 2740 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:43.045
+!MESSAGE Include paths were discovered in 58 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:48.518
+!MESSAGE Project was boosted in 2913 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:48.598
+!MESSAGE Include paths were discovered in 78 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:55.455
+!MESSAGE Project was boosted in 2743 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:40:55.534
+!MESSAGE Include paths were discovered in 77 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:41:02.358
+!MESSAGE Project was boosted in 2761 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:41:02.435
+!MESSAGE Include paths were discovered in 74 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:41:08.758
+!MESSAGE Project was boosted in 2711 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:41:08.819
+!MESSAGE Include paths were discovered in 60 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:41:22.536
+!MESSAGE Project was boosted in 3363 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:41:22.617
+!MESSAGE Include paths were discovered in 79 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:44:28.376
+!MESSAGE Project was boosted in 3026 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:44:28.454
+!MESSAGE Include paths were discovered in 82 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:50:31.318
+!MESSAGE Project was boosted in 2732 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:50:31.381
+!MESSAGE Include paths were discovered in 69 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:53:23.484
+!MESSAGE Project was boosted in 2887 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:53:23.546
+!MESSAGE Include paths were discovered in 66 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:56:58.109
+!MESSAGE Project was boosted in 2616 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 10:56:58.156
+!MESSAGE Include paths were discovered in 52 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:01:26.668
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:01:26.668
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:01:26.809
+!MESSAGE Include paths were discovered in 133 milliseconds.
+!SESSION 2022-03-07 11:02:20.610 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-03-07 11:02:26.278
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:02:52.500
+!MESSAGE Project was boosted in 5106 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:02:52.734
+!MESSAGE Include paths were discovered in 234 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:03:38.935
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:03:38.937
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:03:39.205
+!MESSAGE Include paths were discovered in 265 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:04:24.773
+!MESSAGE Project was boosted in 2962 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:04:24.913
+!MESSAGE Include paths were discovered in 136 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:04:38.531
+!MESSAGE Project was boosted in 2570 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:04:38.640
+!MESSAGE Include paths were discovered in 100 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:05:38.603
+!MESSAGE Project was boosted in 2580 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:05:38.697
+!MESSAGE Include paths were discovered in 91 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:09:22.827
+!MESSAGE Project was boosted in 2749 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:09:22.936
+!MESSAGE Include paths were discovered in 102 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:09:47.744
+!MESSAGE Project was boosted in 2576 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:09:47.838
+!MESSAGE Include paths were discovered in 83 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:10:14.200
+!MESSAGE Project was boosted in 2484 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:10:14.262
+!MESSAGE Include paths were discovered in 72 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:11:27.836
+!MESSAGE Project was boosted in 2663 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:11:27.914
+!MESSAGE Include paths were discovered in 82 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:11:39.157
+!MESSAGE Project was boosted in 2671 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:11:39.235
+!MESSAGE Include paths were discovered in 72 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:12:09.622
+!MESSAGE Project was boosted in 2522 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:12:09.700
+!MESSAGE Include paths were discovered in 71 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:13:33.107
+!MESSAGE Project was boosted in 2925 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:13:33.216
+!MESSAGE Include paths were discovered in 99 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:13:59.689
+!MESSAGE Project was boosted in 2820 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:13:59.767
+!MESSAGE Include paths were discovered in 78 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:14:23.180
+!MESSAGE Project was boosted in 2901 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:14:23.290
+!MESSAGE Include paths were discovered in 107 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:15:01.318
+!MESSAGE Project was boosted in 2732 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:15:01.404
+!MESSAGE Include paths were discovered in 83 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:21:37.734
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:21:37.735
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:21:37.855
+!MESSAGE Include paths were discovered in 122 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:22:08.029
+!MESSAGE Project was boosted in 2718 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:22:08.091
+!MESSAGE Include paths were discovered in 64 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:24:39.854
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:24:39.855
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:24:39.956
+!MESSAGE Include paths were discovered in 103 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:26:12.746
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:26:12.747
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:26:12.840
+!MESSAGE Include paths were discovered in 91 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:28:01.520
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:28:01.520
+!MESSAGE Project was boosted in 15 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:28:01.624
+!MESSAGE Include paths were discovered in 96 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:32:56.931
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:32:56.932
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:32:57.048
+!MESSAGE Include paths were discovered in 119 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:35:51.603
+!MESSAGE Project was boosted in 2988 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:35:51.681
+!MESSAGE Include paths were discovered in 64 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:37:53.833
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:37:53.834
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:37:53.921
+!MESSAGE Include paths were discovered in 95 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:44:16.632
+!MESSAGE Project was boosted in 2632 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:44:16.711
+!MESSAGE Include paths were discovered in 79 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:44:36.607
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:44:36.608
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 11:44:36.675
+!MESSAGE Include paths were discovered in 77 milliseconds.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-07 13:01:55.971
+!MESSAGE Indexed 'tc275_PWM_RGB' (164 sources, 632 headers) in 52.8 sec: 145,818 declarations; 193,744 references; 6 unresolved inclusions; 5,275 syntax errors; 5,956 unresolved names (1.7%)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:07:58.514
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:07:58.514
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:07:58.780
+!MESSAGE Include paths were discovered in 272 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:11:07.314
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:11:07.314
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:11:07.455
+!MESSAGE Include paths were discovered in 150 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:11:36.583
+!MESSAGE Project was boosted in 3305 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:11:36.765
+!MESSAGE Include paths were discovered in 165 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:12:59.878
+!MESSAGE Project was boosted in 2995 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:12:59.968
+!MESSAGE Include paths were discovered in 83 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:14:34.658
+!MESSAGE Project was boosted in 2756 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:14:34.783
+!MESSAGE Include paths were discovered in 113 milliseconds.
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-03-07 13:14:50.630
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2022-03-07 13:14:52.233 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-03-07 13:14:56.555
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:15:22.613
+!MESSAGE Project was boosted in 6013 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:15:22.926
+!MESSAGE Include paths were discovered in 288 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:16:11.429
+!MESSAGE Project was boosted in 3794 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:16:11.632
+!MESSAGE Include paths were discovered in 203 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:17:09.809
+!MESSAGE Project was boosted in 3135 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:17:09.965
+!MESSAGE Include paths were discovered in 157 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:24:08.741
+!MESSAGE Project was boosted in 3110 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:24:08.913
+!MESSAGE Include paths were discovered in 172 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:26:54.856
+!MESSAGE Project was boosted in 2816 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:26:55.012
+!MESSAGE Include paths were discovered in 145 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:27:19.094
+!MESSAGE Project was boosted in 3027 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:27:19.219
+!MESSAGE Include paths were discovered in 120 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:27:49.162
+!MESSAGE Project was boosted in 3368 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:27:49.303
+!MESSAGE Include paths were discovered in 143 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:28:01.152
+!MESSAGE Project was boosted in 3097 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:28:01.277
+!MESSAGE Include paths were discovered in 121 milliseconds.
+!SESSION 2022-03-07 13:28:26.518 -----------------------------------------------
+eclipse.buildId=1.5.4
+java.version=11.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -perspective com.infineon.aurix.buildmanager.perspective.c
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -perspective com.infineon.aurix.buildmanager.perspective.c
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:32:24.748
+!MESSAGE Project was boosted in 4680 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:32:25.138
+!MESSAGE Include paths were discovered in 392 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:32:40.306
+!MESSAGE Project was boosted in 3038 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:32:40.587
+!MESSAGE Include paths were discovered in 224 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:36:27.105
+!MESSAGE Project was boosted in 3181 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:36:27.246
+!MESSAGE Include paths were discovered in 150 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:40:42.494
+!MESSAGE Project index is not complete, and cannot be used for boosting.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:40:42.509
+!MESSAGE Project was boosted in 1 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:40:42.634
+!MESSAGE Include paths were discovered in 131 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:43:15.484
+!MESSAGE Project was boosted in 2615 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:43:15.642
+!MESSAGE Include paths were discovered in 155 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:45:30.332
+!MESSAGE Project was boosted in 2673 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:45:30.503
+!MESSAGE Include paths were discovered in 160 milliseconds.
+
+!ENTRY org.eclipse.cdt.dsf 4 -1 2022-03-07 13:45:45.517
+!MESSAGE Invocation exception when calling a service event handler method
+!STACK 0
+java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:541)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:408)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@130c464c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2093ae61[Wrapped task = com.tasking.debug.cdt.dsf.launch.DWNServicesShutdownSequence@2bba39a5]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@68eaf246[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 187]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.launch.DWNLaunch.doShutdown(DWNLaunch.java:274)
+	at com.tasking.debug.cdt.dsf.launch.DWNLaunch.shutdownServices(DWNLaunch.java:266)
+	at com.tasking.debug.cdt.dsf.launch.DWNLaunch.eventDispatched(DWNLaunch.java:195)
+	... 12 more
+Root exception:
+java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask@130c464c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2093ae61[Wrapped task = com.tasking.debug.cdt.dsf.launch.DWNServicesShutdownSequence@2bba39a5]] rejected from org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor@68eaf246[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 187]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.delayedExecute(ScheduledThreadPoolExecutor.java:340)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.schedule(ScheduledThreadPoolExecutor.java:562)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.schedule(DefaultDsfExecutor.java:450)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor.execute(ScheduledThreadPoolExecutor.java:705)
+	at org.eclipse.cdt.dsf.concurrent.DefaultDsfExecutor.execute(DefaultDsfExecutor.java:474)
+	at com.tasking.debug.cdt.dsf.launch.DWNLaunch.doShutdown(DWNLaunch.java:274)
+	at com.tasking.debug.cdt.dsf.launch.DWNLaunch.shutdownServices(DWNLaunch.java:266)
+	at com.tasking.debug.cdt.dsf.launch.DWNLaunch.eventDispatched(DWNLaunch.java:195)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.cdt.dsf.service.DsfSession.doDispatchEvent(DsfSession.java:541)
+	at org.eclipse.cdt.dsf.service.DsfSession$3.run(DsfSession.java:408)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:45:51.625
+!MESSAGE Project was boosted in 2636 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-07 13:45:51.766
+!MESSAGE Include paths were discovered in 126 milliseconds.

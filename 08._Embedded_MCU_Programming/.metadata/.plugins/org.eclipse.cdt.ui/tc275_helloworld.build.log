@@ -1,4 +1,4 @@
-14:18:32 **** Incremental Build of configuration Debug for project tc275_helloworld ****
+10:40:56 **** Incremental Build of configuration Debug for project tc275_helloworld ****
 make --output-sync -j4 all 
 Building target: tc275_helloworld.elf
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
@@ -15,5 +15,5 @@ RAM: 0x96ad (38573) = data + bss
 Finished building: tc275_helloworld.siz
  
 
-14:18:34 Build Finished. 0 errors, 0 warnings. (took 2s.563ms)
+10:40:59 Build Finished. 0 errors, 0 warnings. (took 3s.145ms)
 

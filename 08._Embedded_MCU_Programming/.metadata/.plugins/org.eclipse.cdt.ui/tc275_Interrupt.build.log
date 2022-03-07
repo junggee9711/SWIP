@@ -1,17 +1,5 @@
-14:18:04 **** Incremental Build of configuration Debug for project tc275_Interrupt ****
+10:40:18 **** Incremental Build of configuration Debug for project tc275_Interrupt ****
 make --output-sync -j4 all 
-Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
- 
-Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
- 
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
@@ -24,23 +12,35 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.c
  
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.c
+ 
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
- 
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.c
 Invoking: TASKING C/C++ Compiler
@@ -60,17 +60,17 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
- 
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.c
 Invoking: TASKING C/C++ Compiler
@@ -84,17 +84,17 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
- 
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.c
 Invoking: TASKING C/C++ Compiler
@@ -107,6 +107,12 @@ Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.c
 Invoking: TASKING C/C++ Compiler
@@ -126,23 +132,17 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
 Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src"  "../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.c
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.c
- 
-Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.c
 Invoking: TASKING C/C++ Compiler
@@ -168,11 +168,11 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
 Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c
 Invoking: TASKING C/C++ Compiler
@@ -180,17 +180,11 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
 Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.c
- 
-Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.c
 Invoking: TASKING C/C++ Compiler
@@ -204,17 +198,17 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.c
  
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.c
+ 
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.c
- 
-Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.c
 Invoking: TASKING C/C++ Compiler
@@ -228,17 +222,17 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.c
  
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.c
+ 
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.c
- 
-Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.c
 Invoking: TASKING C/C++ Compiler
@@ -252,6 +246,12 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.c
  
+Building file: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src"  "../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.c
+ 
 Building file: ../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src"  "../Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
@@ -264,17 +264,17 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src"  "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
- 
 Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src"  "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src"  "../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.c
 Invoking: TASKING C/C++ Compiler
@@ -324,17 +324,17 @@ cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Pro
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.c
  
-Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
- 
 Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src"  "../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.c
+ 
+Building file: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src"  "../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c"  -cs --dep-file="Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.c
  
 Building file: ../Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.c
 Invoking: TASKING C/C++ Compiler
@@ -385,9 +385,7 @@ TASKING VX-toolset for AURIX Development Studio (non-commercial): control progra
 Finished building: ../Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.c
  
 Building file: ../Cpu0_Main.c
-make: *** [subdir.mk:30: Cpu0_Main.src] Error 1
 Invoking: TASKING C/C++ Compiler
-make: *** Waiting for unfinished jobs....
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu0_Main.src"  "../Cpu0_Main.c"  -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 ctc W504: ["..\setting.h" 29/9] macro "SCU_WDTSCON0" redefined
@@ -398,22 +396,24 @@ ctc W504: ["..\setting.h" 31/9] macro "SCU_IGCR0" redefined
 ctc I801: ["C:\\Users\\user\\Desktop\\Hyundai\\SWIP\\08._Embedded_MCU_Programming\\tc275_Interrupt\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_reg.h" 215/9] previous definition of macro "SCU_IGCR0"
 ctc W504: ["..\setting.h" 43/9] macro "SRC_SCUERU0" redefined
 ctc I801: ["C:\\Users\\user\\Desktop\\Hyundai\\SWIP\\08._Embedded_MCU_Programming\\tc275_Interrupt\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxSrc_reg.h" 3249/9] previous definition of macro "SRC_SCUERU0"
+make: *** [subdir.mk:31: Cpu0_Main.src] Error 1
 ctc E244: ["../Cpu0_Main.c" 146/17] invalid operand types for & operator
+make: *** Waiting for unfinished jobs....
 ctc E244: ["../Cpu0_Main.c" 147/17] invalid operand types for | operator
 ctc E244: ["../Cpu0_Main.c" 149/17] invalid operand types for & operator
 ctc E244: ["../Cpu0_Main.c" 151/17] invalid operand types for | operator
 4 errors, 4 warnings
-Building file: ../Cpu1_Main.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu1_Main.src"  "../Cpu1_Main.c"  -cs --dep-file="Cpu1_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-Finished building: ../Cpu1_Main.c
- 
 Building file: ../Configurations/Debug/sync_on_halt.c
 Invoking: TASKING C/C++ Compiler
 cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Configurations/Debug/sync_on_halt.src"  "../Configurations/Debug/sync_on_halt.c"  -cs --dep-file="Configurations/Debug/sync_on_halt.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Finished building: ../Configurations/Debug/sync_on_halt.c
+ 
+Building file: ../Cpu1_Main.c
+Invoking: TASKING C/C++ Compiler
+cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/tc275_Interrupt/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu1_Main.src"  "../Cpu1_Main.c"  -cs --dep-file="Cpu1_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
+TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
+Finished building: ../Cpu1_Main.c
  
 Building file: ../Cpu2_Main.c
 Invoking: TASKING C/C++ Compiler
@@ -424,5 +424,5 @@ Finished building: ../Cpu2_Main.c
 rm Libraries/iLLD/TC27D/Tricore/_Impl/IfxMtu_cfg.src Libraries/iLLD/TC27D/Tricore/Cpu/Trap/IfxCpu_Trap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxSrc_cfg.src Libraries/Infra/Platform/Tricore/Compilers/CompilerDcc.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Atom.src Libraries/iLLD/TC27D/Tricore/Cpu/Std/IfxCpu.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGpt12_PinMap.src Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart1.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tbu.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxI2c_cfg.src Configurations/Debug/sync_on_halt.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPort_PinMap.src Cpu1_Main.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSmu_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxVadc_cfg.src Libraries/iLLD/TC27D/Tricore/Port/Std/IfxPort.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxI2c_PinMap.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Dpll.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxMsc_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxEray_cfg.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tim.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMsc_PinMap.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Tom.src Libraries/iLLD/TC27D/Tricore/Src/Std/IfxSrc.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxCif_cfg.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxAsclin_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5s_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxQspi_cfg.src Cpu2_Main.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxCcu6_cfg.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxScu_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxDma_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxPort_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxMultican_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxGtm_cfg.src Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart2.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxAsclin_cfg.src Libraries/Infra/Platform/Tricore/Compilers/CompilerGnuc.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxPsi5_cfg.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEth_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxFlash_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxStm_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxSent_cfg.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCcu6_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxEray_PinMap.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxQspi_PinMap.src Libraries/iLLD/TC27D/Tricore/Gtm/Std/IfxGtm_Cmu.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxSent_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxDsadc_PinMap.src Libraries/Infra/Platform/Tricore/Compilers/CompilerGhs.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxVadc_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxCif_PinMap.src Libraries/iLLD/TC27D/Tricore/Mtu/Std/IfxMtu.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxPsi5_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxEmem_cfg.src Libraries/iLLD/TC27D/Tricore/Cpu/CStart/IfxCpu_CStart0.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxSmu_cfg.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxHssl_cfg.src Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuEru.src Libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxMultican_PinMap.src Libraries/iLLD/TC27D/Tricore/_PinMap/IfxGtm_PinMap.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxCpu_cfg.src Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuCcu.src Libraries/iLLD/TC27D/Tricore/Scu/Std/IfxScuWdt.src Libraries/iLLD/TC27D/Tricore/_Impl/IfxScu_cfg.src
 "make --output-sync -j4 all" terminated with exit code 2. Build might be incomplete.
 
-14:18:16 Build Failed. 6 errors, 4 warnings. (took 11s.993ms)
+10:40:33 Build Failed. 6 errors, 4 warnings. (took 14s.879ms)
 

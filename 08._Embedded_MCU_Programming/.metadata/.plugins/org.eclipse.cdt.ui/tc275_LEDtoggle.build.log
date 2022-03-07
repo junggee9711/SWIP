@@ -1,4 +1,4 @@
-14:18:19 **** Incremental Build of configuration Debug for project tc275_LEDtoggle ****
+10:40:37 **** Incremental Build of configuration Debug for project tc275_LEDtoggle ****
 make --output-sync -j4 all 
 Building target: tc275_LEDtoggle.elf
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
@@ -15,5 +15,5 @@ RAM: 0x9519 (38169) = data + bss
 Finished building: tc275_LEDtoggle.siz
  
 
-14:18:22 Build Finished. 0 errors, 0 warnings. (took 2s.554ms)
+10:40:40 Build Finished. 0 errors, 0 warnings. (took 2s.637ms)
 
