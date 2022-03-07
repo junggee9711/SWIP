@@ -27,6 +27,7 @@
 #include "Ifx_Types.h"
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
+#include <stdio.h>
 
 /* SCU Registers */
 #define SCU_BASE            (0xF0036000)
@@ -95,11 +96,12 @@ void init_CCU60(void);
 /* Global Variables */
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 
-unsigned int timer_cnt;
-unsigned int start_time;
-unsigned int end_time;
-unsigned int interval_time;
-unsigned int distance;
+volatile unsigned int timer_cnt;
+volatile unsigned int start_time;
+volatile unsigned int end_time;
+volatile unsigned int interval_time;
+volatile unsigned int distance;
+volatile unsigned char irq_ultra_sensor;
 
 int core0_main(void)
 {
@@ -115,13 +117,24 @@ int core0_main(void)
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
 
+    irq_ultra_sensor = 0;
+
     /* Initialization */
     init_ultrasonic();
     init_ERU();
     init_CCU60();
-    
     while(1)
     {
+        irq_ultra_sensor = 0;
+        while( irq_ultra_sensor == 0 );
+
+        printf("distance: %dcm\n", distance);
+
+        for(int i=0; i<100; i++)
+        {
+            irq_ultra_sensor = 0;
+            while( irq_ultra_sensor == 0 );
+        }
     }
 
     return (1);
@@ -156,15 +169,25 @@ void ERU0_ISR(void)
     if((PORT15_IN & (1<<P5)) == 0)              // Falling edge
     {
         /* Get distance */
-        end_time = (timer_cnt * 500) + CCU60_T12;
+        end_time = timer_cnt;
 
+        // 10us
         interval_time = end_time - start_time;  // clock per 0.02us
 
-        distance = (interval_time * 20) / 58000; // unit: cm
+        // 340m/s -> 340_00cm/s -> 340_00
+        // 1us    -> 1000000/340_00 = 29
+        // ToF(Time of Flight) = distance * 2
+        // distance = ToF us / 58 cm
+        // distance = ToF 10us / 5.8 cm
+        // distance = ToF 10us 17/100 cm
+
+        //distance = ((interval_time/2)*34000)/1000_00;    // cm
+        distance = (interval_time*17)/100;      // cm
+        irq_ultra_sensor = 1;
     }
     else                                        // Rising edge
     {
-        start_time = (timer_cnt * 500) + CCU60_T12;
+        start_time = timer_cnt;
     }
 }
 

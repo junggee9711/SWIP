@@ -1,0 +1,2 @@
+15:22:48 **** Incremental Build of configuration Debug for project tc275_Ultrasonic ****
+make --output-sync -j4 all 
