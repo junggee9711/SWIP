@@ -186,7 +186,7 @@ void CCU61_T12_ISR(void)
 
     if( SW2_curr != SW2_prev )
         SW2_cnt = 0;
-    else if( SW1_cnt < 10 )
+    else if( SW2_cnt < 10 )
         SW2_cnt ++;
     else
         SW2_debounce = SW2_curr;

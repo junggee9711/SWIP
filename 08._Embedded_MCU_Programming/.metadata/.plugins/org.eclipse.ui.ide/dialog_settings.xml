@@ -31,6 +31,6 @@
 	</section>
 	<section name="com.infineon.aurix.buildsystem.importexport.wizard.ui.ImportFromCodeExampleWizardPage">
 		<item key="SELECTED_REPOSITORY" value="200"/>
-		<item key="OUTSIDE_LOCATION" value="C:\Users\user\Desktop\Hyundai\SWIP\08._Embedded_MCU_Programming\embedded-main\embedded-main\embedded_mcu\tc275\workspace\tc275_PWM"/>
+		<item key="OUTSIDE_LOCATION" value="C:\Users\user\Desktop\Hyundai\SWIP\08._Embedded_MCU_Programming\embedded-main\embedded-main\embedded_mcu\tc275\workspace\tc275_PWM_Buzzer"/>
 	</section>
 </section>
