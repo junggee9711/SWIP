@@ -1,3 +1,3 @@
-com.infineon.aurix.ActiveProject=tc275_PWM_Buzzer
-com.infineon.aurix.Old_ActiveProject=tc275_PWM_RGB
+com.infineon.aurix.ActiveProject=Embedded_SW_Project
+com.infineon.aurix.Old_ActiveProject=tc275_Ultrasonic
 eclipse.preferences.version=1

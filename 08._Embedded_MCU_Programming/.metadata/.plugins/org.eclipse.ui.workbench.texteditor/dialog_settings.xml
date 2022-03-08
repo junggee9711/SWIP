@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="num_tones"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="SRC_CCU61_SR0"/>
+			<item value="cycle"/>
+			<item value="start_time"/>
+			<item value="timer_cnt"/>
+			<item value="ERU0_ISR"/>
 			<item value="num_tones"/>
 			<item value="irq_timer"/>
 			<item value="ms"/>
@@ -18,11 +23,6 @@
 			<item value="P0"/>
 			<item value="printf"/>
 			<item value="SEL"/>
-			<item value="sel"/>
-			<item value="adc_state"/>
-			<item value="6"/>
-			<item value="my_lib.h"/>
-			<item value="chctr"/>
 		</list>
 		<list key="replacehistory">
 		</list>
