@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value=""/>
+		<item key="selection" value="systick_prev"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="SRC_CCU61_SR0"/>
-			<item value="cycle"/>
-			<item value="start_time"/>
-			<item value="timer_cnt"/>
-			<item value="ERU0_ISR"/>
-			<item value="num_tones"/>
-			<item value="irq_timer"/>
-			<item value="ms"/>
-			<item value="SW1_cnt"/>
-			<item value="SW_state_cnt"/>
-			<item value="SW_state"/>
-			<item value="SW2_debounce"/>
-			<item value="P0"/>
-			<item value="printf"/>
-			<item value="SEL"/>
+			<item value="systick_prev"/>
+			<item value="systick_prev2"/>
+			<item value=";"/>
+			<item value="systick"/>
+			<item value="sw1_cnt"/>
+			<item value="0x0D"/>
+			<item value="0x00D"/>
+			<item value="PORT02_IN"/>
+			<item value="bounce"/>
+			<item value="drive"/>
+			<item value="mode"/>
+			<item value="0"/>
+			<item value="IDLE"/>
+			<item value="CCU61"/>
+			<item value="T12CLK"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="1010"/>
-		<item key="DIALOG_Y_ORIGIN" value="102"/>
+		<item key="DIALOG_X_ORIGIN" value="1037"/>
+		<item key="DIALOG_Y_ORIGIN" value="240"/>
 		<item key="DIALOG_WIDTH" value="288"/>
 		<item key="DIALOG_HEIGHT" value="391"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>

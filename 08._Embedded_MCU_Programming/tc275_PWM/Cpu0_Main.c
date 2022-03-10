@@ -242,8 +242,8 @@ void init_GTM_TOM0_PWM(void)
     GTM_TOM0_TGC0_GLB_CTRL |= ((0x2) << UPEN_CTRL2);    // register CM0, CM1, CLK_SRC
     GTM_TOM0_TGC0_FUPD_CTRL &= ~((0x3) << FUPD_CTRL2);  // Enable force update of TOM0 channel 1
     GTM_TOM0_TGC0_FUPD_CTRL |= ((0x2) << FUPD_CTRL2);
-    GTM_TOM0_TGC0_FUPD_CTRL &= ~((0x3) << RSTCN0_CH1);  // Reset CN0 of TOM0 channel 1 on force update
-    GTM_TOM0_TGC0_FUPD_CTRL |= ((0x2) << RSTCN0_CH1);
+    GTM_TOM0_TGC0_FUPD_CTRL &= ~((0x3) << RSTCN0_CH2);  // Reset CN0 of TOM0 channel 1 on force update
+    GTM_TOM0_TGC0_FUPD_CTRL |= ((0x2) << RSTCN0_CH2);
     GTM_TOM0_TGC0_ENDIS_CTRL &= ~((0x3) << ENDIS_CTRL2); // Enable channel 1 on an update trigger
     GTM_TOM0_TGC0_ENDIS_CTRL |= ((0x2) << ENDIS_CTRL2);
     GTM_TOM0_TGC0_OUTEN_CTRL &= ~((0x3) << OUTEN_CTRL2); // Enable channel 1 output on an update trigger

@@ -1,26 +1,5 @@
-16:42:21 **** Incremental Build of configuration Debug for project Embedded_SW_Project ****
+11:19:20 **** Incremental Build of configuration Debug for project Embedded_SW_Project ****
 make --output-sync -j4 all 
-Building file: ../Cpu0_Main.c
-Invoking: TASKING C/C++ Compiler
-cctc -D__CPU__=tc27xd "-fC:/Users/user/Desktop/Hyundai/SWIP/08._Embedded_MCU_Programming/Embedded_SW_Project/Debug/TASKING_C_C___Compiler-Include_paths.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=3 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc27xd -o "Cpu0_Main.src"  "../Cpu0_Main.c"  -cs --dep-file="Cpu0_Main.d" --misrac-version=2012 -N0 -Z0 -Y0 2>&1;
-TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
-ctc W504: ["..\my_lib.h" 19/9] macro "SCU_WDTSCON0" redefined
-ctc I801: ["C:\\Users\\user\\Desktop\\Hyundai\\SWIP\\08._Embedded_MCU_Programming\\Embedded_SW_Project\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_reg.h" 430/9] previous definition of macro "SCU_WDTSCON0"
-ctc W504: ["..\my_lib.h" 21/9] macro "SCU_EICR2" redefined
-ctc I801: ["C:\\Users\\user\\Desktop\\Hyundai\\SWIP\\08._Embedded_MCU_Programming\\Embedded_SW_Project\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_reg.h" 122/9] previous definition of macro "SCU_EICR2"
-ctc W504: ["..\my_lib.h" 22/9] macro "SCU_IGCR0" redefined
-ctc I801: ["C:\\Users\\user\\Desktop\\Hyundai\\SWIP\\08._Embedded_MCU_Programming\\Embedded_SW_Project\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxScu_reg.h" 215/9] previous definition of macro "SCU_IGCR0"
-ctc W504: ["..\my_lib.h" 37/9] macro "SRC_SCUERU0" redefined
-ctc I801: ["C:\\Users\\user\\Desktop\\Hyundai\\SWIP\\08._Embedded_MCU_Programming\\Embedded_SW_Project\\Libraries\\Infra\\Sfr\\TC27D\\_Reg\IfxSrc_reg.h" 3249/9] previous definition of macro "SRC_SCUERU0"
-0 errors, 4 warnings
-Finished building: ../Cpu0_Main.c
- 
-Building file: Cpu0_Main.src
-TASKING VX-toolset for AURIX Development Studio (non-commercial): assembler v1.1r8 Build 21111057
-Invoking: TASKING Assembler
-astc -Og -Os --no-warnings= --error-limit=42 -o  "Cpu0_Main.o" "Cpu0_Main.src" --list-format=L1 --optimize=gs
-Finished building: Cpu0_Main.src
- 
 Building target: Embedded_SW_Project.elf
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Invoking: TASKING Linker
@@ -28,14 +7,13 @@ cctc -lrt -lfp_fpu -lcs_fpu  -Wl-Oc -Wl-OL -Wl-Ot -Wl-Ox -Wl-Oy -Wl--map-file="E
 Finished building target: Embedded_SW_Project.elf
  
 Invoking: Print Size
-TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 21111057
 elfsize  "Embedded_SW_Project.elf"
 Total sizes:
-ROM: 0x2edf (11999) = code: 0x2d26 (11558) + romdata: 0x1b9 (441)
+ROM: 0x2db5 (11701) = code: 0x2bfc (11260) + romdata: 0x1b9 (441)
 RAM: 0x9546 (38214) = data + bss
 Finished building: Embedded_SW_Project.siz
  
-rm Cpu0_Main.src
+TASKING VX-toolset for AURIX Development Studio (non-commercial): ELF size v1.1r8 Build 21111057
 
-16:42:24 Build Finished. 0 errors, 4 warnings. (took 3s.515ms)
+11:19:23 Build Finished. 0 errors, 0 warnings. (took 2s.922ms)
 

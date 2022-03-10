@@ -49,6 +49,7 @@ volatile unsigned int potential_meter;
 volatile unsigned int light_sensor;
 volatile unsigned int potential_meter_duty;
 volatile unsigned int light_sensor_duty;
+//int mode 0 = toggle, mode 1 = ultra_sensor
 
 
 int core0_main(void)
@@ -68,20 +69,20 @@ int core0_main(void)
     /* Initialization */
     init_ultrasonic();
     init_ERU();
-    init_CCU60();
+//    init_CCU60();
     init_LED();
 
     init_GTM_TOM0_PWM();
     init_VADC();
+    init_CCU6((myCCU6 *)&CCU60,500,0x0A);             // ultra_sensor interrupt
+
+    systick_prev = SYSTEM_TIMER_0_31_0;
 
     light_sensor_duty = 0;
     irq_ultra_sensor = 0;
 
     while(1)
     {
-        delay = distance*10;
-        init_CCU6((myCCU6 *)&CCU61,delay,0x0C);
-
         systick_curr = SYSTEM_TIMER_0_31_0;
         systick = systick_curr - systick_prev;
 
@@ -96,14 +97,13 @@ int core0_main(void)
 
             if (light_sensor<3000)
             {
-//                light_sensor_duty = 12500;
-//                if (distance > 15)
-//                    light_sensor_duty = 12500;
-//                else if (distance > 7 )
-//                    light_sensor_duty = 6000;
-//                else
-//                    light_sensor_duty = 1000;
-                light_sensor_duty = (light_sensor* 12500)/4095;
+                light_sensor_duty = 12500;
+                if (distance > 40)
+                    light_sensor_duty = 12500;
+                else if (distance > 20 )
+                    light_sensor_duty = 6000;
+                else
+                    light_sensor_duty = 1000;
             }
             else
             {
@@ -116,6 +116,9 @@ int core0_main(void)
                 GTM_TOM0_CH2_SR1 = 0;
             else
                 GTM_TOM0_CH2_SR1 = light_sensor_duty - 1;
+
+            delay = distance*10;
+            init_CCU6((myCCU6 *)&CCU61,delay,0x0C);       // toggle interrupt
         }
     }
     return (1);
@@ -177,12 +180,13 @@ void CCU61_T12_ISR(void)
 {
     if(distance >= 100)
     {
-        PORT10_OMR &= ~(1<<PS1);
-        PORT10_OMR |= (1<<PCL1);        // LED RED Off
+//        PORT10_OMR &= ~(1<<PS1);
+//        PORT10_OMR |= (1<<PCL1);        // LED RED Off
+        PORT10_OMR = (1<<PCL1);
     }
     else
     {
-        PORT10_OMR |= ((1<<PCL1) | (1<<PS1));           // Toggle LED RED
+        PORT10_OMR |= ((1<<PCL1) | (1<<PS1));           // distance*10 ms Toggle LED RED
     }
 }
 
