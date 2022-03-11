@@ -28,6 +28,10 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 
+#include "Ifx_Shell.h"
+#include "Ifx_Console.h"
+#include "IfxPort.h"
+
 #include "my_lib.h"
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
@@ -56,7 +60,8 @@ volatile unsigned int distance;
 volatile unsigned int irq_ultra_sensor;
 
 void start_event(void);
-void control_Blue_Red_LED_Timer(void);
+
+int read_data;
 
 int core0_main(void)
 {
@@ -71,7 +76,7 @@ int core0_main(void)
     /* Wait for CPU sync event */
     IfxCpu_emitEvent(&g_cpuSyncEvent);
     IfxCpu_waitEvent(&g_cpuSyncEvent, 1);
-    
+
     init_LED();
     init_LED_RGB();
 
@@ -79,6 +84,8 @@ int core0_main(void)
     init_VADC();
     init_Buzzer();
     init_GTM_TOM0_PWM_RGB();
+
+    initSerialInterface();
 
     light_sensor_duty = 0;
     irq_ultra_sensor = 0;
@@ -90,6 +97,11 @@ int core0_main(void)
 
     while(1)
     {
+        if ((PORT15_IN & (1<<P2)) == (1 << P2))
+            read_data = 2;
+        else if ((PORT15_IN & (1<<P3)) == (1 << P3))
+            read_data = 3;
+
         if(mode == IDLE)
         {
             init_CCU61(0);
@@ -414,3 +426,8 @@ void control_Blue_Red_LED_Timer(void)
         init_CCU61(distance*10);
     }
 }
+
+
+
+
+

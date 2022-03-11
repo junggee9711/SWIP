@@ -1,4 +1,4 @@
-15:22:48 **** Incremental Build of configuration Debug for project tc275_Ultrasonic ****
+10:52:21 **** Incremental Build of configuration Debug for project tc275_Ultrasonic ****
 make --output-sync -j4 all 
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
 Building target: tc275_Ultrasonic.elf
@@ -15,5 +15,5 @@ RAM: 0x96aa (38570) = data + bss
 Finished building: tc275_Ultrasonic.siz
  
 
-15:22:50 Build Finished. 0 errors, 0 warnings. (took 2s.719ms)
+10:52:23 Build Finished. 0 errors, 0 warnings. (took 2s.515ms)
 

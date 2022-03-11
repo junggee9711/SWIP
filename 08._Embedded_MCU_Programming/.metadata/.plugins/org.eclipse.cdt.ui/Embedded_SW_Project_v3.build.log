@@ -1,0 +1,2 @@
+12:32:10 **** Incremental Build of configuration Debug for project Embedded_SW_Project_v3 ****
+make --output-sync -j4 all 

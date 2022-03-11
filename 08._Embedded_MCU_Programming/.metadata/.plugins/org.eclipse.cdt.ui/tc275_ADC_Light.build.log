@@ -1,4 +1,4 @@
-10:40:11 **** Incremental Build of configuration Debug for project tc275_ADC_Light ****
+10:51:27 **** Incremental Build of configuration Debug for project tc275_ADC_Light ****
 make --output-sync -j4 all 
 Building target: tc275_ADC_Light.elf
 TASKING VX-toolset for AURIX Development Studio (non-commercial): control program v1.1r8 Build 21111057
@@ -15,5 +15,5 @@ RAM: 0x9519 (38169) = data + bss
 Finished building: tc275_ADC_Light.siz
  
 
-10:40:14 Build Finished. 0 errors, 0 warnings. (took 2s.841ms)
+10:51:30 Build Finished. 0 errors, 0 warnings. (took 2s.428ms)
 
