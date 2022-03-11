@@ -28,11 +28,24 @@
 #include "IfxCpu.h"
 #include "IfxScuWdt.h"
 
-#include "Ifx_Shell.h"
-#include "Ifx_Console.h"
-#include "IfxPort.h"
-
 #include "my_lib.h"
+
+
+
+
+#define POR15_BASE      (0xF003B500)
+#define PORT15_IOCR0    (*(volatile unsigned int*)(PORT15_BASE + 0x0010))
+#define PORT15_OMR      (*(volatile unsigned int*)(PORT15_BASE + 0x004))
+
+#define PC3             27
+#define PC2             19
+#define PCL3            19
+#define PS3             3
+#define PCL2            18
+#define PS2             2
+
+
+void initSerialInterface_2(void);
 
 IfxCpu_syncEvent g_cpuSyncEvent = 0;
 volatile unsigned int light_sensor;
@@ -60,8 +73,13 @@ volatile unsigned int distance;
 volatile unsigned int irq_ultra_sensor;
 
 void start_event(void);
+void control_Blue_Red_LED_Timer(void);
 
-int read_data;
+void initSerialInterface(void);
+
+void initSerialInterface_2(void);
+
+volatile int write_flag = 0;
 
 int core0_main(void)
 {
@@ -85,7 +103,7 @@ int core0_main(void)
     init_Buzzer();
     init_GTM_TOM0_PWM_RGB();
 
-    initSerialInterface();
+    initSerialInterface_2();
 
     light_sensor_duty = 0;
     irq_ultra_sensor = 0;
@@ -95,13 +113,11 @@ int core0_main(void)
     GTM_TOM0_CH11_SR1 = 0;
     GTM_CMU_CLK_EN |= ((0x2) << EN_FXCLK);      // enable
 
+
     while(1)
     {
-        if ((PORT15_IN & (1<<P2)) == (1 << P2))
-            read_data = 2;
-        else if ((PORT15_IN & (1<<P3)) == (1 << P3))
-            read_data = 3;
 
+        //write_flag = IfxAsclin_Asc_blockingWrite(&g_asclin, 15);
         if(mode == IDLE)
         {
             init_CCU61(0);
@@ -122,6 +138,7 @@ int core0_main(void)
                 start_cnt++;
                 if (start_cnt > 50000){
                     mode = PARK;
+
                     start_event();
                     init_LED_start();
                     GTM_CMU_CLK_EN &= ~((0x2) << EN_FXCLK);             // pwm disable
@@ -145,6 +162,11 @@ int core0_main(void)
         }
         else if(mode == PARK)
         {
+            //PORT15_OMR |= (0<<PS2);
+            //PORT15_OMR |= (1<<PCL2);
+
+            PORT15_OMR |= (1<<PS2);
+
             init_CCU61(0);
             if (PARK_led_flag == 0){
                 PORT02_OMR |= (1<<PS7);                     // Set RGB LED RED
@@ -157,6 +179,10 @@ int core0_main(void)
         }
         else if(mode == DRIVE)
         {
+            //PORT15_OMR |= (1<<PS2);
+            PORT15_OMR |= (1<<PCL2);
+            //for(int i = 0; i<5000; i++);
+            //PORT15_OMR |= (1<<PS3);
             if (DRIVE_led_flag == 0){
                 PORT10_OMR |= (1<<PS5);                     // Set RGB LED GREEN
                 PORT02_OMR |= (1<<PCL7);                    // Clear LED RED
@@ -218,6 +244,11 @@ int core0_main(void)
         else if(mode == REVERSE)
         {
             init_CCU61(0);
+            //PORT15_OMR |= (0<<PS2);
+            //PORT15_OMR |= (1<<PCL2);
+
+            PORT15_OMR |= (1<<PS2);
+
             if (REVERSE_led_flag == 0){
 
                 PORT10_OMR |= (1<<PS3);                     // Set RGB LED BLUE
@@ -317,6 +348,8 @@ void ERU1_ISR(void)
         PORT10_OMR |= (1<<PS5);                     // Set RGB LED GREEN
         PORT02_OMR |= (1<<PCL7);                    // Clear LED RED
         PORT10_OMR |= (1<<PCL3);                    // Clear LED BLUE
+
+        PORT15_OMR |= (1<<PCL2);
         //GTM_CMU_CLK_EN &= ~((0x2) << EN_FXCLK);
     }
     else if(mode == DRIVE){
@@ -325,6 +358,8 @@ void ERU1_ISR(void)
         PORT10_OMR |= (1<<PS3);                     // Set RGB LED BLUE
         PORT02_OMR |= (1<<PCL7);                    // Clear LED RED       (ch15)
         PORT10_OMR |= (1<<PCL5);                    // Clear LED GREEN    (ch2)
+
+        PORT15_OMR |= (1<<PS2);
         //GTM_CMU_CLK_EN &= ~((0x2) << EN_FXCLK);
     }
     else if(mode == REVERSE){
@@ -333,6 +368,8 @@ void ERU1_ISR(void)
         PORT02_OMR |= (1<<PS7);                     // Set RGB LED RED
         PORT10_OMR |= (1<<PCL5);                    // Clear LED GREEN    (ch2)
         PORT10_OMR |= (1<<PCL3);                    // Clear LED BLUE      (ch3)
+
+        PORT15_OMR |= (1<<PC2);
         //GTM_CMU_CLK_EN &= ~((0x2) << EN_FXCLK);
 
     }
@@ -429,5 +466,11 @@ void control_Blue_Red_LED_Timer(void)
 
 
 
+void initSerialInterface_2(void)
+{
+    PORT15_IOCR0 &= ~(0x1F << PC2);
+    PORT15_IOCR0 &= ~(0x1F << PC3);
 
-
+    PORT15_IOCR0 |= (0x10 << PC2);
+    PORT15_IOCR0 |= (0x10 << PC3);
+}

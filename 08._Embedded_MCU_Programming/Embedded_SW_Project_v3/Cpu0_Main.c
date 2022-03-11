@@ -220,6 +220,7 @@ void VADC_startConversion(void);
 unsigned int VADC_readResult(void);
 void initSerialInterface(void);
 
+volatile int read_flag = 0;
 int core0_main(void)
 {
     IfxCpu_enableInterrupts();
@@ -262,7 +263,6 @@ int core0_main(void)
 
             GTM_TOM0_CH11_SR0 = pwm_cnt;
             GTM_TOM0_CH11_SR1 = pwm_cnt / 2;
-
             /*
             period = 8;
             GTM_CMU_CLK_EN |= ((0x2) <<EN_FXCLK);
@@ -363,6 +363,10 @@ int core0_main(void)
         else if ((PORT15_IN & (1<<P2)) == (0 << P2))
         {
             read_data = 3;
+        }
+        else
+        {
+            read_data = (PORT15_IN & (1<<P2));
         }
 
     }

@@ -7246,3 +7246,53 @@ java.util.concurrent.RejectedExecutionException: Task java.util.concurrent.Sched
 
 !ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 12:32:09.786
 !MESSAGE Include paths were discovered in 80 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 12:52:36.130
+!MESSAGE Project was boosted in 2725 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 12:52:36.208
+!MESSAGE Include paths were discovered in 90 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 13:01:47.291
+!MESSAGE Project was boosted in 2624 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 13:01:47.353
+!MESSAGE Include paths were discovered in 60 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 13:02:17.908
+!MESSAGE Project was boosted in 3574 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 13:02:18.018
+!MESSAGE Include paths were discovered in 103 milliseconds.
+
+!ENTRY org.eclipse.ui.console 4 120 2022-03-11 13:03:18.007
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Output Stream is closed
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:265)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:260)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:74)
+	at org.eclipse.ui.console.MessageConsoleStream.println(MessageConsoleStream.java:99)
+	at com.tasking.debug.cdt.core.DWNSession.logDebugConsoleMessage(DWNSession.java:2532)
+	at com.tasking.debug.cdt.core.DWNSession.logDebugConsoleMessage(DWNSession.java:2543)
+	at com.tasking.debug.cdt.core.DWNSession.logDebugConsoleMessage(DWNSession.java:2550)
+	at com.tasking.debug.cdt.core.DarwinPlugin.createCSession(DarwinPlugin.java:1526)
+	at com.tasking.debug.cdt.core.DWNDBGDebugger.createLaunchSession(DWNDBGDebugger.java:214)
+	at com.tasking.debug.cdt.core.DWNDBGDebugger.createDebuggerSession(DWNDBGDebugger.java:111)
+	at com.tasking.cdt.launch.internal.LocalRunLaunchDelegate.launch(LocalRunLaunchDelegate.java:197)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:803)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1021)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$2.run(DebugUIPlugin.java:1224)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.tasking.debug.cdt.core 4 150 2022-03-11 13:03:18.023
+!MESSAGE Error creating session 
+!SUBENTRY 1 com.tasking.debug.cdt.core 4 150 2022-03-11 13:03:18.023
+!MESSAGE java.lang.NullPointerException
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 13:06:03.389
+!MESSAGE Project was boosted in 2959 milliseconds.
+
+!ENTRY com.infineon.aurix.buildsystem 1 0 2022-03-11 13:06:03.468
+!MESSAGE Include paths were discovered in 69 milliseconds.

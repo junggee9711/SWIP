@@ -450,10 +450,3 @@ void init_Buzzer(void)
     PORT02_IOCR0 &= ~((0x1F) << PC3);           // PORT02.3 : Alternate output function 1 (push-pull)
     PORT02_IOCR0 |= ((0x11) << PC3);            // PORT02.3 : GTM_TOUT3
 }
-
-
-void initSerialInterface(void)
-{
-    PORT15_IOCR0 &= ~(0x1F << PC2);
-    PORT15_IOCR0 &= ~(0x1F << PC3);
-}

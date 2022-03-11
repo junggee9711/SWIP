@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="Switch"/>
+		<item key="selection" value="PCL"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="PCL"/>
+			<item value="P2"/>
+			<item value="P@"/>
+			<item value="PORT15_OMR"/>
+			<item value="PORT15_IN"/>
 			<item value="switch"/>
 			<item value="ASCLIN0"/>
 			<item value="ASCLIN"/>
@@ -18,11 +23,6 @@
 			<item value="IOCRO"/>
 			<item value="ATX1"/>
 			<item value="g_asclin"/>
-			<item value="Read"/>
-			<item value="IfxAsclin_Asc_BaudRate"/>
-			<item value="IfxAsclin_Asc_BaudRate "/>
-			<item value="IfxAsclin_Asc_Config"/>
-			<item value="ifxAsclin_Asc_write"/>
 		</list>
 		<list key="replacehistory">
 		</list>
